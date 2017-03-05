@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="110px" height="360px" viewBox="0 0 110 360" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>bg_home_topleft</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Teaser" fill="#43A447">
+            <g id="Decoration" transform="translate(-54.000000, -63.000000)">
+                <polygon id="Rectangle-5" opacity="0.5" transform="translate(94.893398, 82.226136) rotate(-315.000000) translate(-94.893398, -82.226136) " points="80.1195347 67.4522728 109.667262 67.4522728 80.1195347 97"></polygon>
+                <polygon id="Rectangle-5" opacity="0.300000012" transform="translate(73.893398, 103.226136) rotate(-225.000000) translate(-73.893398, -103.226136) " points="59.1195347 88.4522728 88.6672619 88.4522728 59.1195347 118"></polygon>
+                <polygon id="Rectangle-5" opacity="0.400000006" transform="translate(115.893398, 103.226136) rotate(-45.000000) translate(-115.893398, -103.226136) " points="101.119535 88.4522728 130.667262 88.4522728 101.119535 118"></polygon>
+                <polygon id="Rectangle-5" opacity="0.600000024" transform="translate(137.053301, 82.386039) rotate(-45.000000) translate(-137.053301, -82.386039) " points="122.166369 67.4991072 151.940233 67.4991072 122.166369 97.2729708"></polygon>
+                <polygon id="Rectangle-5" opacity="0.100000001" transform="translate(52.893398, 124.226136) rotate(-315.000000) translate(-52.893398, -124.226136) " points="38.1195347 109.452273 67.6672619 109.452273 38.1195347 139"></polygon>
+                <polygon id="Rectangle-5" opacity="0.300000012" transform="translate(52.893398, 82.226136) rotate(-225.000000) translate(-52.893398, -82.226136) " points="38.1195347 67.4522728 67.6672619 67.4522728 38.1195347 97"></polygon>
+                <polygon id="Rectangle-5" opacity="0.600000024" transform="translate(73.893398, 103.226136) rotate(-45.000000) translate(-73.893398, -103.226136) " points="59.1195347 88.4522728 88.6672619 88.4522728 59.1195347 118"></polygon>
+                <polygon id="Rectangle-5" opacity="0.699999988" transform="translate(94.786797, 123.786797) rotate(-315.000000) translate(-94.786797, -123.786797) " points="80.0883118 109.088312 109.485281 109.088312 80.0883118 138.485281"></polygon>
+                <polygon id="Rectangle-5" opacity="0.400000006" transform="translate(136.786797, 123.786797) rotate(-315.000000) translate(-136.786797, -123.786797) " points="122.088312 109.088312 151.485281 109.088312 122.088312 138.485281"></polygon>
+                <polygon id="Rectangle-5" opacity="0.5" transform="translate(115.786797, 144.786797) rotate(-225.000000) translate(-115.786797, -144.786797) " points="101.088312 130.088312 130.485281 130.088312 101.088312 159.485281"></polygon>
+                <polygon id="Rectangle-4" opacity="0.800000012" transform="translate(53.520292, 360.520292) rotate(-315.000000) translate(-53.520292, -360.520292) " points="15.6757307 322.675731 91.3648539 322.675731 91.3648539 398.364854"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,88 @@
+$main-color: #DB3127;
+$secondary-color: #3580C2;
+
+$default-height: 65px;
+$small-height: 50px;
+
+.button {
+  position: relative;
+  font-size: 0;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0;
+  background: transparentize($main-color, .6);
+  transition: background .2s ease-out;
+
+  &:hover {
+    background: transparentize($main-color, .4);
+  }
+
+  .inner, &:before, &:after {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  &:before, &:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+  }
+
+  .inner {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px 0;
+    background: $main-color;
+  }
+
+  &:before {
+    left: 0;
+    border-width: 0 0 $default-height $default-height;
+    border-color: transparent transparent $main-color transparent;
+  }
+
+  &:after {
+    right: 0;
+    border-width: $default-height $default-height 0 0;
+    border-color: $main-color transparent transparent transparent;
+  }
+}
+
+.button.button-secondary {
+  background: transparentize($secondary-color, .6);
+
+  .inner {
+    background: $secondary-color;
+  }
+
+  &:before {
+    border-bottom-color: $secondary-color;
+  }
+
+  &:after {
+    border-top-color: $secondary-color;
+  }
+
+  &:hover {
+    background: transparentize($secondary-color, .4);
+  }
+}
+
+.button.button-small {
+  .inner {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 15px 0;
+  }
+
+  &:before {
+    border-width: 0 0 $small-height $small-height;
+  }
+
+  &:after {
+    border-width: $small-height $small-height 0 0;
+  }
+}

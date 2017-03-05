@@ -1,0 +1,47 @@
+.content {
+  max-width: 940px;
+  margin: 60px auto;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &.icon-link {
+    text-decoration: none;
+
+    img {
+      vertical-align: middle;
+    }
+
+    &:hover {
+      opacity: .8;
+    }
+  }
+}
+
+p:first-child {
+  margin-top: 0;
+}
+
+.fleft {
+  float: left;
+}
+
+.fright {
+  float: right;
+}
+
+.block {
+  margin: 40px 0;
+}
+
+.clr:after {
+  content: "";
+  display: table;
+  clear: both;
+}

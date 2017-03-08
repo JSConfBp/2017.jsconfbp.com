@@ -1,8 +1,9 @@
 .site-footer {
   position: relative;
   padding: 30px;
-  text-transform: uppercase;
+  text-align: center;
   background: #20201F;
+  color: #fff;
 
   .content {
     margin: 60px auto;
@@ -13,6 +14,7 @@
     bottom: 0;
     content: "";
     display: block;
+    z-index: -1;
   }
 
   .bg.left {
@@ -49,5 +51,18 @@ body.home footer {
     width: 280px;
     height: 460px;
     background: url(/assets/bg_home_bottomright.svg);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .bg.right {
+    display: none;
+  }
+
+  .site-footer {
+    .content {
+      margin: 0;
+      padding: 0;
+    }
   }
 }

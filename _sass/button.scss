@@ -86,3 +86,21 @@ $small-height: 50px;
     border-width: $small-height $small-height 0 0;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .button {
+    .inner {
+      font-size: 16px;
+      line-height: 20px;
+      padding: 15px 0;
+    }
+
+    &:before {
+      border-width: 0 0 $small-height $small-height;
+    }
+
+    &:after {
+      border-width: $small-height $small-height 0 0;
+    }
+  }
+}

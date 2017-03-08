@@ -1,6 +1,7 @@
 .content {
   max-width: 940px;
   margin: 60px auto;
+  padding: 0 40px;
 }
 
 a {
@@ -44,4 +45,12 @@ p:first-child {
   content: "";
   display: table;
   clear: both;
+}
+
+
+@media screen and (max-width: 480px) {
+  .content {
+    padding: 20px;
+    margin: 0;
+  }
 }

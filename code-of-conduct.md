@@ -6,21 +6,23 @@ permalink: /code-of-conduct/
 
 All attendees, speakers, sponsors and volunteers at JSConf Budapest are required to agree with the following code of conduct. Organizers will enforce this code throughout the event. We are expecting coorporation from all participants to help ensuring a safe environment for everybody.
 
-tl;dr: Don’t be a Jerk. Be excellent.
+_tl;dr: Don’t be a Jerk. Be excellent._
 
 # Need Help?
 
 Contact Szabolcs
-Szabolcs Szabolcsi-Tóth
-Twitter: @_Nec
-Email: nec@jsconfbp.com
-Phone(hu): +36 70 389 1288
-Sometimes, you want to contact someone, outside the organizer team
 
-Anikó Fejes
-Twitter: @hubudibu
-Email: aniko@bpweb.io
-Phone(hu): +36 70 426 2628
+Szabolcs Szabolcsi-Tóth  
+Twitter: [@_Nec](https://twitter.com/_Nec)  
+Email: [nec@jsconfbp.com](mailto:nec@jsconfbp.com)  
+Phone(hu): +36 70 389 1288  
+
+or Aniko
+
+Anikó Fejes  
+Twitter: [@hubudibu](https://twitter.com/hubudibu)  
+Email: [aniko@bpweb.io](mailto:aniko@bpweb.io)  
+Phone(hu): +36 70 426 2628  
 
 # The Quick Version
 JSConf Budapest is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks, workshops, parties, Twitter and other online media. Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organizers.
@@ -36,7 +38,8 @@ If a participant engages in harassing behavior, the conference organizers may ta
 
 If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff immediately. Conference staff can be identified by a yellow conference shirt with a black wireframe square JSConf Budapest logo.
 
-In case you can’t find a staff member, Szabolcs is always there for you: @_Nec, nec@jsconfbp.com, +36703891288.
+In case you can’t find a staff member, Szabolcs is always there for you:  
+[@_Nec](https://twitter.com/_Nec), [nec@jsconfbp.com](mailto:nec@jsconfbp.com), +36 70 389 1288  .
 
 Conference staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.
 

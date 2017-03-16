@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{% if page.title %} {{ page.title }} - {% endif %} {{ site.name }}</title>
+        <meta charset="utf-8">
+        <meta name="description" content="{{site.description}}"/>
+        <meta name="author" content="{{site.author}}"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="robots" content="index, follow">
+
+        <link rel="stylesheet" href="{{site.baseurl}}/css/styles.css">
+    </head>
+    <body class="home">
+        {% include header.html %}
+
+        <div class="teaser-content">
+            <img src="/assets/logo.svg" width="200" height="200" align="JSConf Budapest 2017 logo"/>
+            <h1>
+                <strong>JSConf Budapest</strong> 2017
+            </h1>
+            <h2>
+                September 14-15
+            </h2>
+
+            {% comment %}
+            <!-- div class="block">
+                <a href="#" class="button">
+                    <span class="inner">
+                        Get the early bird tickets
+                    </span>
+                </a>
+            </div -->
+            <div class="block">
+                <a href="/call-for-speakers" class="button button-secondary button-small">
+                    <span class="inner">
+                        Call for speakers
+                    </span>
+                </a>
+            </div>
+            {% endcomment %}
+        </div>
+
+        {% include footer.html %}
+    </body>
+</html>

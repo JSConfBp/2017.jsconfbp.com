@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="125px" height="65px" viewBox="0 0 125 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>bg_footer_left</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Footer" transform="translate(0.000000, -205.000000)" fill="#43A447">
+            <g id="Group-2" transform="translate(0.000000, 101.000000)">
+                <polygon id="Rectangle-7" opacity="0.5" points="29.75 140 59.5 169.333333 0 169.333333"></polygon>
+                <polygon id="Rectangle-7" opacity="0.300000012" points="59.75 111 89.5 140.333333 30 140.333333"></polygon>
+                <polyline id="Rectangle-7" opacity="0.300000012" points="30 140.333333 59.75 111 59.75 169.666667"></polyline>
+                <polyline id="Rectangle-7" opacity="0.200000003" points="60 169.333333 89.75 140 89.75 198.666667"></polyline>
+                <polyline id="Rectangle-7" opacity="0.200000003" points="-2.81848619e-14 169.333333 29.75 140 29.75 198.666667"></polyline>
+                <polyline id="Rectangle-7" opacity="0.200000003" points="89.75 169.333333 60 140 119.5 140"></polyline>
+                <polyline id="Rectangle-7" opacity="0.300000012" points="29.75 140.333333 -2.6423308e-14 169.666667 -1.58539848e-14 111"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

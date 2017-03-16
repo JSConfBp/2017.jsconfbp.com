@@ -1,0 +1,61 @@
+@import 'colors.scss';
+
+.content {
+  max-width: 940px;
+  margin: 60px auto;
+  padding: 0 40px;
+}
+
+a {
+  text-decoration: none;
+  color: $color-white;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &.icon-link {
+    text-decoration: none;
+
+    img {
+      vertical-align: middle;
+    }
+
+    &:hover {
+      opacity: .8;
+    }
+  }
+}
+.content a {
+  color: $color-blue;
+}
+
+p:first-child {
+  margin-top: 0;
+}
+
+.fleft {
+  float: left;
+}
+
+.fright {
+  float: right;
+}
+
+.block {
+  margin: 40px 0;
+}
+
+.clr:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 480px) {
+  .content {
+    padding: 20px;
+    margin: 0;
+  }
+}

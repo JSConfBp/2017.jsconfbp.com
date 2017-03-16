@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="295px" height="180px" viewBox="0 0 295 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>bg_home_bottomleft</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Teaser" transform="translate(0.000000, -820.000000)" fill="#43A447">
+            <g id="Decoration" transform="translate(-54.000000, -63.000000)">
+                <polyline id="Rectangle-4" opacity="0.800000012" points="112.911086 947.893353 170.583014 1005.56528 112.911086 1063.23721"></polyline>
+                <polyline id="Rectangle-4" opacity="0.699999988" points="285.977774 1005.56528 228.305846 1063.23721 170.633919 1005.56528"></polyline>
+                <polyline id="Rectangle-4" opacity="0.400000006" points="170.608466 1005.57498 228.280394 1063.2469 170.608466 1120.91883"></polyline>
+                <polyline id="Rectangle-4" opacity="0.400000006" points="170.633919 1005.54952 228.305846 947.877596 285.977774 1005.54952"></polyline>
+                <polyline id="Rectangle-4" opacity="0.400000006" points="228.331299 1063.2469 286.003226 1005.57498 343.675154 1063.2469"></polyline>
+                <polyline id="Rectangle-4" opacity="0.300000012" points="55.2137063 1005.57498 112.885634 1063.2469 55.2137063 1120.91883"></polyline>
+                <polyline id="Rectangle-4" opacity="0.5" points="53.9594155 890.180216 111.631343 947.852143 53.9594155 1005.52407"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="280px" height="460px" viewBox="0 0 280 460" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>bg_home_bottomright</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Teaser" transform="translate(-1120.000000, -540.000000)" fill="#43A447">
+            <g id="Decoration" transform="translate(-54.000000, -63.000000)">
+                <polygon id="Rectangle-4" opacity="0.800000012" transform="translate(1453.520292, 662.520292) rotate(-135.000000) translate(-1453.520292, -662.520292) " points="1415.67573 624.675731 1491.36485 624.675731 1491.36485 700.364854"></polygon>
+                <polygon id="Rectangle-4" opacity="0.699999988" transform="translate(1269.959415, 970.959415) rotate(-225.000000) translate(-1269.959415, -970.959415) " points="1204.93429 905.934289 1334.98454 905.934289 1334.98454 1035.98454"></polygon>
+                <polygon id="Rectangle-4" opacity="0.400000006" transform="translate(1361.959415, 1062.959415) rotate(-315.000000) translate(-1361.959415, -1062.959415) " points="1296.93429 997.934289 1426.98454 997.934289 1426.98454 1127.98454"></polygon>
+                <polygon id="Rectangle-4" opacity="0.400000006" transform="translate(1177.959415, 1062.959415) rotate(-315.000000) translate(-1177.959415, -1062.959415) " points="1112.93429 997.934289 1242.98454 997.934289 1242.98454 1127.98454"></polygon>
+                <polygon id="Rectangle-4" opacity="0.400000006" transform="translate(1361.959415, 878.959415) rotate(-315.000000) translate(-1361.959415, -878.959415) " points="1296.93429 813.934289 1426.98454 813.934289 1426.98454 943.984542"></polygon>
+                <polygon id="Rectangle-4" opacity="0.600000024" transform="translate(1453.959415, 970.959415) rotate(-135.000000) translate(-1453.959415, -970.959415) " points="1388.93429 905.934289 1518.98454 905.934289 1518.98454 1035.98454"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

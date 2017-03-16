@@ -2,6 +2,10 @@
 layout: page
 title: Call for speakers
 permalink: /call-for-speakers
+social_card:
+    twitter_card_type: summary_large_image
+    description: We are inviting the JavaScript community to submit talks for the upcoming JSConf Budapest
+    image: /twitter_card/cfp.png
 ---
 
 We are inviting the JavaScript community to submit talks for the upcoming JSConf Budapest

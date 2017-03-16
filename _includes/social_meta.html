@@ -1,0 +1,16 @@
+{% if page.social_card %}
+        <meta name="twitter:card" content="{{ page.social_card.twitter_card_type }}">
+        <meta name="twitter:site" content="@jsconfbp">
+        <meta name="twitter:creator" content="@jsconfbp">
+        <meta name="twitter:title" content="{{ page.title }} - {{ site.title }}">
+        <meta name="twitter:description" content="{{ page.social_card.description }}">
+        <meta name="twitter:image" content="{{ page.social_card.image }}">
+        <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="{{ page.title }} - {{ site.title }}" />
+        <meta property="og:description" content="{{ page.social_card.description }}" />
+        <meta property="og:image" content="{{ page.social_card.image }}" />
+        <meta property="og:site_name" content="{{ site.title }}" />
+        <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+{% endif %}

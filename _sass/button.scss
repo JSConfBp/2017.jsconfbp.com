@@ -1,5 +1,7 @@
-$main-color: #DB3127;
-$secondary-color: #3580C2;
+@import 'colors.scss';
+
+$main-color: $color-red;
+$secondary-color: $color-blue;
 
 $default-height: 65px;
 $small-height: 50px;

@@ -65,6 +65,13 @@ nav {
 }
 
 
+
+.site-nav-container {
+  input {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .site-header {
     padding: 20px;
@@ -84,11 +91,7 @@ nav {
       .site-nav {
         display: none;
       }
-
-      input {
-        display: none;
-      }
-
+      
       .site-nav-opener {
         position: relative;
         width: 25px;

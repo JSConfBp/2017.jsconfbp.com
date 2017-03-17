@@ -1,9 +1,15 @@
+
+.clear-after:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .cfp-iframe {
     width: 100%;
     border: none;
     height: 100vh;
 }
-
 
 .speaker {
 
@@ -14,8 +20,6 @@
             font-weight: normal;
         }
     }
-
-
 
     &-image {
         height: 100px;
@@ -30,12 +34,4 @@
             height: 100%;
         }
     }
-}
-
-
-
-.clear-after:after {
-    content: "";
-    display: table;
-    clear: both;
 }

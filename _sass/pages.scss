@@ -3,3 +3,39 @@
     border: none;
     height: 100vh;
 }
+
+
+.speaker {
+
+    &-details {
+        margin-bottom: 0px;
+
+        .twitter {
+            font-weight: normal;
+        }
+    }
+
+
+
+    &-image {
+        height: 100px;
+        width: 100px;
+        overflow: hidden;
+        border-radius: 50px;
+        float: left;
+        margin: 0 20px 20px 0;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+
+
+.clear-after:after {
+    content: "";
+    display: table;
+    clear: both;
+}

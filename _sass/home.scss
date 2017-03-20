@@ -1,5 +1,6 @@
 body.home {
-  background: url(/assets/bg.jpg);
+  //background: url(/assets/bg.jpg);
+  background: #000;
   background-size: cover;
 }
 
@@ -7,6 +8,8 @@ body.home {
 .teaser-content {
   text-align: center;
   margin-top: 100px;
+  position: relative;
+  z-index: 2;
 
   h1, h2 {
     color: #fff;
@@ -26,6 +29,30 @@ body.home {
   }
 }
 
+.teaser-background {
+  background: url(/assets/bg.jpg);
+  background-position: center center;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  video {
+    height: 100%;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+  }
+
+  .teaser-check {
+    display: block;
+    width: 1px;
+  }
+
+}
+
 @media screen and (max-width: 480px) {
   .teaser-content {
     img {
@@ -42,5 +69,19 @@ body.home {
       font-size: 25px;
       line-height: 30px;
     }
+  }
+
+  .teaser-background {
+    background-size: auto 100%;
+
+    .teaser-check {
+      width: 2px;
+    }
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .teaser-background {
+    background-size: 100% auto;
   }
 }

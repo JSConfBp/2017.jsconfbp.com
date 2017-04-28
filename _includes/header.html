@@ -3,12 +3,22 @@
     <div class="bg right"></div>
 
     {% if (include.title) %}
-    <a href="/" class="logo icon-link fleft">
-        <img src="/assets/logo.svg" width="100" height="100">
-    </a>
-    {% endif; %}
+        <a href="/" class="logo icon-link fleft">
+            <img src="/assets/logo.svg" width="100" height="100">
+        </a>
+        <div class="title">
+            <h1>
+                {{ include.title }}
+                <span class="line"></span>
+            </h1>
 
-    <h1 class="title">{{ include.title }}</h1>
+            {% if (include.subtitle) %}
+            <h2>
+               {{ include.subtitle }}
+            </h2>
+            {% endif; %}
+        </div>
+    {% endif; %}
     <div class="fright site-nav-container">
         <input type="checkbox" id="menu-icon" />
         <label for="menu-icon" class="site-nav-opener">

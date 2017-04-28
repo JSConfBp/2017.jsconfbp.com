@@ -1,0 +1,19 @@
+.grid {
+  letter-spacing: -.65em;
+
+  .grid-item {
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    letter-spacing: normal;
+
+
+    &.size-33 {
+      width: 33.33%;
+    }
+
+    &.size-50 {
+      width: 50%;
+    }
+  }
+}

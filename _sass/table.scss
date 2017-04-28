@@ -1,0 +1,70 @@
+table {
+  font-size: 16px;
+  margin: 40px 0;
+  line-height: 28px;
+  border-spacing: 0;
+
+  &.compact {
+    td {
+      width: 130px;
+      padding: 0 6px;
+    }
+  }
+
+  th {
+    padding: 20px;
+  }
+
+  h5 {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  h6 {
+    color: $color-red;
+    font-size: 30px;
+    line-height: 38px;
+    font-weight: 300;
+    margin: 0;
+  }
+
+  td h6 {
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 400;
+  }
+
+  td, th {
+    border-bottom: 1px solid $color-grey-3;
+  }
+
+  td {
+    width: 140px;
+    padding: 6px;
+  }
+
+  .spacer {
+    width: 20px;
+    padding: 0;
+  }
+
+  tr td:first-child {
+    text-align: right;
+  }
+
+  .supporter {
+    background: $color-grey-1;
+  }
+
+  .silver {
+    background: $color-grey-2;
+  }
+
+  .gold {
+    background: $color-grey-3;
+  }
+
+  .platinum {
+    background: $color-grey-4;
+  }
+}

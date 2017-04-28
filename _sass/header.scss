@@ -8,6 +8,10 @@
   box-sizing: border-box;
   text-transform: uppercase;
 
+  a {
+    color: $color-white;
+  }
+
   .bg {
     position: absolute;
     top: 0;
@@ -21,12 +25,66 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
 
-    font-size: 70px;
-    line-height: 88px;
-    margin: 0;
-    color: #fff;
+    h1, h2 {
+      color: #fff;
+    }
+
+    h1 {
+      font-size: 70px;
+      line-height: 88px;
+      padding: 0 15px;
+      margin: 0;
+      display: inline-block;
+      position: relative;
+
+      .line {
+        position: absolute;
+        left: 0;
+        bottom: 15px;
+        background: $color-red;
+        height: 9px;
+        width: 100%;
+        z-index: -1;
+
+        &:before, &:after {
+          display: block;
+          position: absolute;
+          opacity: .7;
+          content: "";
+          width: 0;
+          height: 0;
+          border-style: solid;
+        }
+
+        &:before {
+          left: -1px;
+          top: -9px;
+          border-width: 9px 0 9px 9px;
+          border-color: transparent transparent transparent $color-red;
+        }
+
+        &:after {
+          right: -1px;
+          top: 0px;
+          border-width: 9px 9px 9px 0;
+          border-color: transparent $color-red transparent transparent;
+        }
+      }
+    }
+
+    h2 {
+      display: block;
+      font-size: 40px;
+      line-height: 50px;
+      font-weight: 300;
+      text-transform: none;
+      margin-top: 0;
+    }
   }
+
+
 
   .site-nav-container {
     .site-nav-open-icon {

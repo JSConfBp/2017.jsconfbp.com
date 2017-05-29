@@ -25,7 +25,7 @@ Sadly, going through all this legally and financially, takes time - so to make s
 
 This year with the new company, we basically starting over, so we'll return to our first venue, the theater Urania, that hosted us in 2015!
 
-Because of the shortage of time, some things we originally planned are simply cannot be done, so this year will be a slightly simpler edition of JSConf Budapest, compared to the previous ones.
+Because of the shortage of time, some great things we originally planned are simply cannot be done this year, so 2017 will be a slightly smaller edition of JSConf Budapest, compared to last year.
 
 ## What happens with all the CFP's?
 

@@ -95,6 +95,9 @@
   &.home {
     height: auto;
     background: none;
+    position: absolute;
+    width: 100%;
+    top: 0;
 
     .bg.left {
       left: 0;
@@ -150,7 +153,7 @@ nav {
       .site-nav {
         display: none;
       }
-      
+
       .site-nav-opener {
         position: relative;
         width: 25px;
@@ -208,6 +211,15 @@ nav {
       transform: translateY(-50%);
       font-size: 30px;
       line-height: 38px;
+
+      h1 {
+        font-size: 24px;
+        line-height: 34px;
+
+        .line {
+          bottom: 0;
+        }
+      }
     }
 
     &.home {

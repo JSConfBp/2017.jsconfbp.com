@@ -8,44 +8,64 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="robots" content="index, follow">
-
+        <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="{{site.baseurl}}/css/styles.css">
     </head>
     <body class="home">
         {% include header.html %}
 
-        <div class="teaser-content">
-            <img src="/assets/logo.svg" width="200" height="200" align="JSConf Budapest 2017 logo"/>
-            <h1>
-                <strong>JSConf Budapest</strong> 2017
-            </h1>
-            <h2>
-                September 14-15
+        <div class="teaser">
+            <div class="teaser__content">
+                <img src="/assets/logo.svg" width="200" height="200" align="JSConf Budapest 2017 logo"/>
+                <h1>
+                    <strong>JSConf Budapest</strong> 2017
+                </h1>
+                <h2>
+                    New date! October 26-27
+                </h2>
+
+                <div class="block">
+                    <a href="/updates/new-date-and-our-future/" class="button button-secondary button-small">
+                        <span class="inner">
+                            Read more
+                        </span>
+                    </a>
+                </div>
+
+                {% comment %}
+                <!-- div class="block">
+                    <a href="#" class="button">
+                        <span class="inner">
+                            Get the early bird tickets
+                        </span>
+                    </a>
+                </div -->
+
+
+                {% endcomment %}
+            </div>
+            <div class="teaser__background"><span class="teaser__background-check"></span></div>
+        </div>
+
+        <div class="content">
+            <h1>Updates</h1>
+
+
+            {% for item in site.updates %}
+            <article class="update">
+            <h2 class="update__title">
+                <a href="{{ item.url }}">{{ item.title }}</a>
             </h2>
 
-            {% comment %}
-            <!-- div class="block">
-                <a href="#" class="button">
-                    <span class="inner">
-                        Get the early bird tickets
-                    </span>
-                </a>
-            </div -->
-            {% endcomment %}
+            <p class="update__lead">{{ item.lead }}</p>
 
-            <div class="block">
-                <a href="/call-for-speakers" class="button button-secondary button-small">
-                    <span class="inner">
-                        Call for Speakers
-                    </span>
-                </a>
-            </div>
+            </article>
+            {% endfor %}
 
         </div>
 
-        <div class="teaser-background"><span class="teaser-check"></span></div>
-
         {% include footer.html %}
+
         <script src="/assets/js/home.js"></script>
     </body>
 </html>

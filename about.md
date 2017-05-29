@@ -4,7 +4,7 @@ title: About JSConf Budapest
 permalink: /about
 ---
 
-# Szia! Привіт! Cześć! Salut! Ћао! Ahoj! Dobrý den! Γειά σου! Hoi! Bună! Здравейте! Привет! Hello! 
+# Szia! Привіт! Cześć! Salut! Ћао! Ahoj! Dobrý den! Γειά σου! Hoi! Bună! Здравейте! Привет! Hello!
 
 We're aim to be the JSConf of the region around Eastern-Middle Europe, an area so diverse in culture, people and views. A strictly nonprofit, open-sourced and community driven conference for the community of JavaScript, with the purpose to build and educate about new technologies, ideas and culture.
 
@@ -31,24 +31,46 @@ Check out our earlier events
 
 JSConf Budapest is brought to you by these people:
 
-<div class="speaker clear-after">
-    <div class="speaker-image">
-        <img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/1/000/072/012/16fc78f.jpg" width="90" height="90">
-    </div>
-    <h3 class="speaker-details">
-        Szabolcs Szabolcsi-Tóth <br>
-        <a href="https://twitter.com/_nec" class="twitter">@_Nec</a>
-    </h3>
-    <em class="speaker-meta">curator</em>
-</div>
+<div class="grid">
 
-<div class="speaker clear-after">
-    <div class="speaker-image">
-        <img src="https://pbs.twimg.com/profile_images/3704622941/63129818cb9584da076604263663b809_400x400.png" width="90" height="90">
+    <div class="speaker grid-item size-50">
+        <div class="speaker-image">
+            <img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/1/000/072/012/16fc78f.jpg" width="90" height="90">
+        </div>
+        <h3 class="speaker-details">
+            Szabolcs Szabolcsi-Tóth <br>
+            <a href="https://twitter.com/_nec" class="twitter">@_Nec</a>
+        </h3>
     </div>
-    <h3 class="speaker-details">
-        Máté Nádasdi <br>
-        <a href="https://twitter.com/matenadasdi" class="twitter">@matenadasdi</a>
-    </h3>
-    <em class="speaker-meta">curator</em>
+
+    <div class="speaker  grid-item size-50 clear-after">
+        <div class="speaker-image">
+            <img src="https://pbs.twimg.com/profile_images/3704622941/63129818cb9584da076604263663b809_400x400.png" width="90" height="90">
+        </div>
+        <h3 class="speaker-details">
+            Máté Nádasdi <br>
+            <a href="https://twitter.com/matenadasdi" class="twitter">@matenadasdi</a>
+        </h3>
+    </div>
+
+    <div class="speaker  grid-item size-50">
+        <div class="speaker-image">
+            <img src="https://pbs.twimg.com/profile_images/663056435790614530/2-DbMaxT_200x200.png" width="90" height="90">
+        </div>
+        <h3 class="speaker-details">
+            Aniko Fejes <br>
+            <a href="https://twitter.com/hubudibu" class="twitter">@hubudibu</a>
+        </h3>
+    </div>
+
+    <div class="speaker  grid-item size-50 clear-after">
+        <div class="speaker-image">
+            <img src="https://pbs.twimg.com/profile_images/645878259767508992/lLgOJD_l_400x400.jpg" width="90" height="90">
+        </div>
+        <h3 class="speaker-details">
+            Gergo Szonyi <br>
+            <a href="https://twitter.com/szexigexi" class="twitter">@szexigexi</a>
+        </h3>
+    </div>
+
 </div>

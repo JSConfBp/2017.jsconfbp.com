@@ -10,6 +10,7 @@
 
         <meta name="robots" content="index, follow">
         {% include social_meta.html %}
+        <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="{{site.baseurl}}/css/styles.css">
     </head>
     <body class="sponsorship">
@@ -22,12 +23,12 @@
                 <div class="grid">
                     <div class="grid-item size-33">
                         <img src="/assets/sponsorship/icon-microphone.svg" />
-                        <span class="stat-number">16</span>
+                        <span class="stat-number">19</span>
                         <h4 class="color-yellow">Speakers</h4>
                     </div>
                     <div class="grid-item size-33">
                         <img src="/assets/sponsorship/icon-audience.svg" />
-                        <span class="stat-number">500</span>
+                        <span class="stat-number">550</span>
                         <h4 class="color-yellow">Attendees</h4>
                     </div>
                     <div class="grid-item size-33">
@@ -138,8 +139,8 @@
 
         <div class="block confs-container color-white">
             <div class="block-content narrow">
-                <h2 class="color-green-dark">2017 is even greater!</h2>
-                <h3>Ticket sale starts in April for two awesome conferences</h3>
+                <h2 class="color-green-dark">2017 is here!</h2>
+                <h3>Ticket sale starts in June for two awesome conferences</h3>
 
                 <div class="grid">
                     <div class="conf-box grid-item size-50 clr">
@@ -148,7 +149,7 @@
                                 <h5>JSConf</h5>
                                 <ul class="unstyled">
                                     <li>Single track</li>
-                                    <li>600+ attendees</li>
+                                    <li>400+ attendees</li>
                                     <li>16 speakers</li>
                                 </ul>
                             </div>
@@ -175,7 +176,6 @@
                 </div>
                 <div class="conf-perk-list grid bg-green-dark text-center">
                    <ul class="unstyled text-right grid-item size-50">
-                       <li>Diversity Sponsorship Program</li>
                        <li>Client- and server side</li>
                        <li>JavaScript novelties, curiosities</li>
                        <li>Mobile web technologies</li>
@@ -186,7 +186,6 @@
                     <ul class="unstyled text-left grid-item size-50">
                         <li>Open Source culture, diversity</li>
                         <li>Interactive art</li>
-                        <li>Anything that JavaScript is feasible with, or related to</li>
                         <li>Engaging interfaces</li>
                         <li>Maintainable large-scale CSS</li>
                         <li>Responsive design</li>
@@ -279,6 +278,8 @@
                         <th class="spacer"></th>
                         <td class="platinum">yes</td>
                     </tr>
+
+                    {% comment %}
                     <tr>
                         <td colspan="2">Branded booth</td>
                         <th class="spacer"></th>
@@ -301,13 +302,14 @@
                         <th class="spacer"></th>
                         <td class="platinum">yes</td>
                     </tr>
+                    {% endcomment %}
+
                     <tr>
                         <td colspan="2">Extras for every sponsor package</td>
                         <td class="spacer"></td>
                         <td colspan="7" class="supporter">
                             <ul class="text-left">
                                 <li>We will announce every sponsor on social media platforms</li>
-                                <li>Every logo appears on passes</li>
                                 <li>Additional tickets available (+ $266 each)</li>
                                 <li>We would love to have satisfied sponsors, so <a href="mailto:info@jsconfbp.hu">send us your ideas!</a></li>
                             </ul>
@@ -362,10 +364,6 @@
                                 <td class="supporter"><h6>$4,000</h6></td>
                             </tr>
                             <tr>
-                                <td>T-shirt back</td>
-                                <td class="supporter"><h6>$4,000</h6></td>
-                            </tr>
-                            <tr>
                                 <td>Coffee stand</td>
                                 <td class="supporter"><h6>$2,000</h6></td>
                             </tr>
@@ -404,10 +402,6 @@
                                 <td class="supporter"><h6>$2,000</h6></td>
                             </tr>
                             <tr>
-                                <td>T-shirt back</td>
-                                <td class="supporter"><h6>$3,000</h6></td>
-                            </tr>
-                            <tr>
                                 <td>Lanyrd</td>
                                 <td class="supporter"><h6>$1,000</h6></td>
                             </tr>
@@ -427,23 +421,15 @@
                 <h3>As non-profit conferences, we are always looking for sponsors to make our events awesome. </h3>
 
                 <div class="grid">
-                    <div class="grid-item size-33">
-                        <img class="avatar" width="120" height="120" />
+                    <div class="grid-item size-50">
+                        <img class="avatar" width="120" height="120" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/1/000/072/012/16fc78f.jpg" />
                         <h4>Szabolcs Szabolcsi-Toth</h4>
                         <a href="mailto:nec@jsconfbp.com">nec@jsconfbp.com</a>
-                        <a href="#">+36 70 389 1288</a>
                     </div>
-                    <div class="grid-item size-33">
-                        <img class="avatar" width="120" height="120" />
-                        <h4>Szabolcs Szabolcsi-Toth</h4>
-                        <a href="mailto:nec@jsconfbp.com">nec@jsconfbp.com</a>
-                        <a href="#">+36 70 389 1288</a>
-                    </div>
-                    <div class="grid-item size-33">
-                        <img class="avatar" width="120" height="120" />
-                        <h4>Szabolcs Szabolcsi-Toth</h4>
-                        <a href="mailto:nec@jsconfbp.com">nec@jsconfbp.com</a>
-                        <a href="#">+36 70 389 1288</a>
+                    <div class="grid-item size-50">
+                        <img class="avatar" width="120" height="120" src="" />
+                        <h4></h4>
+                        <a href="mailto:"></a>
                     </div>
                </div>
             </div>
@@ -458,8 +444,10 @@
                         <div>
                             <p>Organized by:</p>
                             <ul>
-                                <li>Máté Nádasdi (IBM Cloud Video)</li>
                                 <li>Szabolcs Szabolcsi-Tóth (IBM Cloud Video)</li>
+                                <li>Máté Nádasdi (IBM Cloud Video)</li>
+                                <li>Anikó Fejes (Elegran)</li>
+                                <li>Gergő Szőnyi (Elegran)</li>
                             </ul>
                         </div>
                     </div>
@@ -471,8 +459,10 @@
                         <div>
                             <p>Organized by:</p>
                             <ul>
-                                <li>Máté Nádasdi (IBM Cloud Video)</li>
-                                <li>Szabolcs Szabolcsi-Tóth (IBM Cloud Video)</li>
+                                <li>Anikó Fejes (Elegran)</li>
+                                <li>Gergő Szőnyi (Elegran)</li>
+                                <li>Levente Király (Mito)</li>
+                                <li>Tamas Puski (IseeQ)</li>
                             </ul>
                         </div>
                     </div>

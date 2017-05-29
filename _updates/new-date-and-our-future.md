@@ -13,7 +13,7 @@ social_card:
 
 ## What happened?
 
-To organize an event in Hungary with such scale, you need a valid legal entity behind you, one that handles invoices, sings contracts, deals with tax and all that is related.
+To organize an event in Hungary with such scale, you need a valid legal entity behind you, one that handles invoices, signs contracts, deals with tax and all that is related.
 
 For two years, for this role, we had great partner companies, who helped us start and make JSConf Budapest possible. But after each year, for several reasons, they could not continue to help us further. We thank RisingStack and EUEdge for their tremendous help in this adventure.
 

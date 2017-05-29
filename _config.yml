@@ -25,6 +25,11 @@ keywords: jsconf, javascript, jsconfbp, conference, budapest, jsconf budapest
 twitter_username: jsconfbp
 github_username:  jsconfbp
 
+collections:
+  updates:
+    output: true
+    permalink: /:collection/:name/
+
 # Build settings
 markdown: kramdown
 gems:

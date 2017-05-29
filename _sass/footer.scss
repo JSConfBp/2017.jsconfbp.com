@@ -4,9 +4,12 @@
   text-align: center;
   background: #20201F;
   color: #fff;
+  font-size: .8em;
 
   .content {
     margin: 60px auto;
+    z-index: 2;
+    position: relative;
   }
 
   .bg {
@@ -14,7 +17,7 @@
     bottom: 0;
     content: "";
     display: block;
-    z-index: -1;
+    z-index: 1;
   }
 
   .bg.left {
@@ -34,11 +37,10 @@
 }
 
 body.home footer {
-  background: none;
-  position: static;
 
   .content {
-    display: none;
+    color: #fff;
+
   }
 
   .bg.left {
@@ -48,6 +50,7 @@ body.home footer {
   }
 
   .bg.right {
+    display: none;
     top: auto;
     bottom: 0;
     width: 280px;
@@ -65,6 +68,15 @@ body.home footer {
     .content {
       margin: 0;
       padding: 0;
+    }
+  }
+
+  body.home footer {
+    .bg.left {
+      width: 125px;
+      height: 65px;
+      background-size: 100% 100%;
+      left: -10px;
     }
   }
 }

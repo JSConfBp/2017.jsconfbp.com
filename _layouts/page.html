@@ -10,10 +10,11 @@
 
         <meta name="robots" content="index, follow">
         {% include social_meta.html %}
+        <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="{{site.baseurl}}/css/styles.css">
     </head>
     <body>
-        {% include header.html title=page.title %}
+        {% include header.html title=page.title subtitle=page.subtitle %}
 
         <div class="content">
             {{ content }}

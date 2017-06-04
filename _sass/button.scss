@@ -74,6 +74,10 @@ $small-height: 50px;
   }
 }
 
+.content .button {
+  color: $color-white;
+}
+
 .button.button-small {
   .inner {
     font-size: 16px;

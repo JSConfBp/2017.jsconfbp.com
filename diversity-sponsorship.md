@@ -2,16 +2,16 @@
 layout: page
 title: Diversity Sponsorship
 subtitle:
-lead:
+lead: We aim to help underrepresented groups in tech to attend and lowering the barriers for them.
 social_card:
     twitter_card_type: summary_large_image
-    description:
-    image: /assets/social-cards/update-diversity.png
+    description: We aim to help underrepresented groups in tech to attend and lowering the barriers for them.
+    image: /assets/social-cards/diversity-sponsorship.jpg
 ---
 
 # Diversity Sponsorship
 
-In 2017 we still aim to help underrepresented groups in tech to attend and lowering the barriers for them. This includes but isn’t limited to: women, people of color, LGBTQIA+ people, and disabled people. We would like to give them a chance.
+We aim to help underrepresented groups in tech to attend and lowering the barriers for them. This includes but isn’t limited to: women, people of color, LGBTQIA+ people, and disabled people. We would like to give them a chance.
 
 To help them, we provide a **limited number of free, Diversity Sponsored tickets.**
 

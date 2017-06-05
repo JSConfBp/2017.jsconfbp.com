@@ -52,11 +52,11 @@ Let's see this ticket for example:
 
 This means, if you buy this ticket, you'll sponsor the half of someone's ticket, who otherwise could not afford it.
 
-We've set several levels of sponsorship: 25%, 50% and 100%.
+We've set several levels of sponsorship: 25%, 50% and 100%. Depending on the diversity fund we can raise, we may also sponsor travel expenses and accommodation, if required.
 
 ## Awarding process
 
-We, the organizers, do not decide who gets these tickets. Last year we asked Green Fox Academy in Budapest to help us evaluate the applications and select the awardees. To manage the diversity fund, we turned to the Asimov Foundation in Budapest, who helped the selected people with travel arrangements.
+We, the organizers, do not decide who gets these tickets. Last year we asked Green Fox Academy in Budapest to help us evaluate the applications and select the awardees. To manage the diversity fund, we turned to the Asimov Foundation in Budapest, who helped the selected people with travel arrangements if necessary.
 
 ### Green Fox Academy
 

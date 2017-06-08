@@ -17,7 +17,8 @@ body.sponsorship {
 
     .popover {
       position: absolute;
-      top: -65px;
+      top: -10px;
+      transform: translateY(-100%);
       left: 50%;
       margin-left: -65px;
       width: 100px;

@@ -1,6 +1,6 @@
 ---
 layout: sponsorship
-title: Sponsorship
+title: Sponsoration
 subtitle: Become a sponsor for JSConf and CSSConf
 permalink: /sponsorship
 ---

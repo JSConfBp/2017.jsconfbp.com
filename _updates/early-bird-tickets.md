@@ -9,8 +9,17 @@ social_card:
     image: /assets/social-cards/update-20170618.jpg
 ---
 
-Our very first batch of tickets will be available for sale from **19th June, 14:00 CEST.**
-Follow us on twitter for the exact announcement!
+Our very first batch of tickets are available for sale from **19th June, 14:00 CEST.**
+
+<div class="block text-center">
+<a href="https://ti.to/jsconf-bp/jsconf-budapest-2017" class="button">
+                        <span class="inner">
+                            buy Early Bird tickets
+                        </span>
+                    </a>
+</div>
+
+
 
 Just as we did last year, we would like to put together a budget, for our upcoming [Diversity Sponsorship program](http://jsconfbp.com/diversity-sponsorship). This budget will be formed from financial support by companies, and sponsorship-valued tickets.
 

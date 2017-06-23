@@ -3,6 +3,7 @@ layout: page
 title: Early Bird tickets
 subtitle: Sale starts on 19th June!
 lead: Our very first batch of tickets will be available for sale from 19th June, 14:00 CET.
+date: 2017-06-18
 social_card:
     twitter_card_type: summary_large_image
     description: Early Bird Sale starts on 19th June!

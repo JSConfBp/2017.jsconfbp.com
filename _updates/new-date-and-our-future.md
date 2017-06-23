@@ -3,6 +3,7 @@ layout: page
 title: Important updates for JSConf Budapest 2017
 subtitle:
 lead: New date! 2017 October 26-27, the reason behind all this, and more updates
+date: 2017-05-01
 social_card:
     twitter_card_type: summary_large_image
     description: New date! 2017 October 26-27, the reason behind all this, and more updates

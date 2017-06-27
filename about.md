@@ -6,7 +6,7 @@ permalink: /about
 
 # Szia! Привіт! Cześć! Salut! Ћао! Ahoj! Dobrý den! Γειά σου! Hoi! Bună! Здравейте! Привет! Hello!
 
-We're aim to be the JSConf of the region around Eastern-Middle Europe, an area so diverse in culture, people and views. A strictly nonprofit, open-sourced and community driven conference for the community of JavaScript, with the purpose to build and educate about new technologies, ideas and culture.
+We aim to be the JSConf of the region around Eastern-Middle Europe, an area so diverse in culture, people and views. A strictly nonprofit, open-sourced and community driven conference for the community of JavaScript, with the purpose to build and educate about new technologies, ideas and culture.
 
 # JSConf Budapest so far
 
@@ -35,7 +35,7 @@ JSConf Budapest is brought to you by these people:
 
     <div class="speaker grid-item size-50">
         <div class="speaker-image">
-            <img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/1/000/072/012/16fc78f.jpg" width="90" height="90">
+            <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAnQAAAAJGZiNjEwMDU4LTA5MDEtNDdmZi05OGIxLTVkZGVhMjc4Njk1MA.jpg" width="90" height="90">
         </div>
         <h3 class="speaker-details">
             Szabolcs Szabolcsi-Tóth <br>

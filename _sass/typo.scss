@@ -29,6 +29,40 @@ blockquote {
   padding-left: 31px;
 }
 
+.content-featured {
+
+  h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    line-height: 63px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+  }
+
+  h3 {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 38px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+  }
+
+  p {
+    font-weight: 300;
+  }
+
+  @media screen and (max-width: 480px) {
+    h2 {
+      font-size: 30px;
+      line-height: 43px;
+    }
+    h3 {
+      font-size: 26px;
+      line-height: 28px;
+    }
+  }
+}
+
 @media screen and (max-width: 480px) {
   body {
     font-size: 16px;

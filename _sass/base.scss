@@ -6,6 +6,22 @@
   padding: 0 40px;
 }
 
+.content.content-featured {
+  padding: 40px;
+}
+
+
+.block:last-of-type {
+  margin-bottom: 0;
+
+  & .content.content-featured {
+    margin-bottom: 0;
+    padding-bottom: 100px;
+  }
+
+}
+
+
 a {
   text-decoration: none;
   color: $color-blue;
@@ -114,4 +130,10 @@ ul.unstyled {
     padding: 20px;
     margin: 0;
   }
+
+
+  .content.content-featured {
+    padding: 20px;
+}
+
 }

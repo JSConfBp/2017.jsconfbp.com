@@ -11,12 +11,27 @@
 }
 
 
-.block:last-of-type {
-  margin-bottom: 0;
+.block {
 
-  & .content.content-featured {
+  &.block-first,
+  &:first-of-type {
+    margin-top: 0;
+
+    & .content.content-featured {
+        margin-top: 0;
+        padding-top: 100px;
+      }
+  }
+
+  &.block-last,
+  &:last-of-type {
     margin-bottom: 0;
-    padding-bottom: 100px;
+
+    & .content.content-featured {
+      margin-bottom: 0;
+      padding-bottom: 100px;
+    }
+
   }
 
 }
@@ -135,5 +150,22 @@ ul.unstyled {
   .content.content-featured {
     padding: 20px;
 }
+
+}
+
+
+@mixin underline( $shadow-color: $color-white, $border-color: currentcolor, $border-width: 1px ) {
+  text-decoration: none;
+  padding: .5em 0;
+  background:  linear-gradient($border-color, $border-color) no-repeat;
+  background-size: 100% $border-width;
+  background-position: center bottom 30%;
+  text-shadow:
+    3px 0 $shadow-color,
+    2px 0 $shadow-color,
+    1px 0 $shadow-color,
+    -1px 0 $shadow-color,
+    -2px 0 $shadow-color,
+    -3px 0 $shadow-color;
 
 }

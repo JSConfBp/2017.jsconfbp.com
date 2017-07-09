@@ -29,6 +29,10 @@ collections:
   updates:
     output: true
     permalink: /:collection/:name/
+  speakers:
+    output: true
+    permalink: /:collection/:name/
+
 
 # Build settings
 markdown: kramdown

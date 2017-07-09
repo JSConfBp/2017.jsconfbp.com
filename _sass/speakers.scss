@@ -1,0 +1,204 @@
+
+.content-featured.feature-speakers {
+
+    h2 {
+        margin-bottom: 100px;
+    }
+
+    padding-bottom: 100px;
+}
+
+.speaker-page {
+
+    .content h1 {
+        margin-top: 0;
+    }
+
+    .speaker-meta {
+        font-size: 18px;
+
+        a {
+            color: $color-blue;
+        }
+    }
+}
+
+.speaker {
+    position: relative;
+    padding: 0 30px;
+    padding-bottom: 60px;
+
+    h3, h4 {
+        position: relative;
+        z-index: 2;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-weight: 500;
+    }
+
+    h4 {
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+
+   &> a {
+        display: block;
+
+        &:hover {
+            text-decoration: none;
+
+            h3 {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    p {
+        margin-top: 0;
+
+        a {
+            color: $color-text-dark;
+        }
+    }
+
+
+    .speaker__image {
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+        z-index: 1;
+        margin-bottom: 20px;
+
+        .speaker__image-decoration-container {
+            width: 110%;
+            height: 110%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            overflow: hidden;
+            transform: translate(-50%, -50%);
+        }
+
+        .speaker__image-container {
+            position: relative;
+            overflow: hidden;
+            border-radius: 100% 100% 100% 100%;
+            width: 100%;
+            height: 100%;
+
+            &::after {
+                content: "";
+                display: block;
+                padding-bottom: 100%;
+            }
+
+            img {
+               position: absolute;
+               height: 100%;
+            }
+        }
+
+        .speaker__image-decoration {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 50%;
+            left: 50%;
+            overflow: hidden;
+            background-size: 0;
+            transform-origin: top left;
+
+
+            &::before {
+                content: '';
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                width: 91%;
+                height: 91%;
+                background-color: $color-green-dark;
+
+                background-image: inherit;
+                border-radius: 100%;
+                background-size: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                opacity: .7;
+                background-blend-mode: luminosity;
+                transform-origin: top left;
+                z-index: 2;
+            }
+
+            &::after {
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background: $color-green-dark;
+
+                background-image: none;
+                z-index: 1;
+            }
+        }
+
+        .decoration--1 {
+            .speaker__image-decoration {
+                transform: rotate(-45deg) translate(-50%, -125%);
+
+                &::before {
+                    transform: rotate(45deg) translate(8.4%, 8.6%);
+                }
+                &::after {
+                    transform: translate(0,0);
+                }
+            }
+        }
+
+        .decoration--2 {
+            .speaker__image-decoration {
+                transform: rotate(45deg) translate(-50%, -125%);
+
+                &::before {
+                    transform: rotate(-45deg) translate(-108.4%, 8.6%);
+                }
+                &::after {
+                    transform: translate(0,0);
+                }
+            }
+        }
+
+        .decoration--3 {
+            .speaker__image-decoration {
+                transform: rotate(135deg) translate(-50%, -125%);
+
+                &::before {
+                    transform: rotate(-135deg) translate(-108.8%, -108.6%);
+                }
+                &::after {
+                    transform: translate(0,0);
+                }
+            }
+        }
+
+        .decoration--4 {
+            .speaker__image-decoration {
+                transform: rotate(-135deg) translate(-50%, -125%);
+
+                &::before {
+                    transform: rotate(-225deg) translate(8.4%, -108.8%);
+                }
+                &::after {
+                    transform: translate(0,0);
+                }
+            }
+        }
+    }
+    &:hover {
+            .speaker__image-decoration {
+                &::before {
+                    background-blend-mode: normal;
+                }
+            }
+        }
+
+}

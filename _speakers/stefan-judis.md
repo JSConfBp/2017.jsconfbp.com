@@ -1,7 +1,7 @@
 ---
 layout: speaker
 order: 1
-title: Watch your back, Browser! You're being observer
+title: Watch your back, Browser! You're being observed
 image: /assets/speakers/stefan.jpg
 name: Stefan Judis
 twitter: stefanjudis

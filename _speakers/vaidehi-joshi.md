@@ -11,7 +11,7 @@ decor: 4
 
 social_card:
     twitter_card_type: summary_large_image
-    description: Goldilocks And The Three Code Reviews
+    description: Session by Vaidehi Joshi
     image: /assets/social-cards/speaker-vaidehi.jpg
 ---
 

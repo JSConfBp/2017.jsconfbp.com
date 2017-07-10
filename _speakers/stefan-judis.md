@@ -10,7 +10,7 @@ decor: 1
 
 social_card:
     twitter_card_type: summary_large_image
-    description: Watch your back, Browser! You're being observer
+    description: Session by Stefan Judis
     image: /assets/social-cards/speaker-stefan.jpg
 ---
 

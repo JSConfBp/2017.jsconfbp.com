@@ -11,7 +11,7 @@ decor: 3
 
 social_card:
     twitter_card_type: summary_large_image
-    description: Migrating Pinterest profiles to React
+    description: Session by Imad Elyafi
     image: /assets/social-cards/speaker-imad.jpg
 ---
 

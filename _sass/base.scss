@@ -11,12 +11,27 @@
 }
 
 
-.block:last-of-type {
-  margin-bottom: 0;
+.block {
 
-  & .content.content-featured {
+  &.block-first,
+  &:first-of-type {
+    margin-top: 0;
+
+    & .content.content-featured {
+        margin-top: 0;
+        padding-top: 100px;
+      }
+  }
+
+  &.block-last,
+  &:last-of-type {
     margin-bottom: 0;
-    padding-bottom: 100px;
+
+    & .content.content-featured {
+      margin-bottom: 0;
+      padding-bottom: 100px;
+    }
+
   }
 
 }
@@ -131,9 +146,26 @@ ul.unstyled {
     margin: 0;
   }
 
-
   .content.content-featured {
     padding: 20px;
+  }
+
 }
 
+
+@mixin underline( $shadow-color: $color-white, $border-color: currentcolor, $border-width: 1px ) {
+    text-decoration: none;
+    text-shadow: -2px -2px $shadow-color, -2px 2px $shadow-color, 2px -2px $shadow-color, 2px 2px $shadow-color, 0px 2px $shadow-color;
+    background-size: 1px 1em;
+    box-shadow: inset 0 -0.06em $shadow-color, inset 0 -0.13em $border-color;
+    display: inline;
+}
+
+
+@mixin underline_small( $shadow-color: $color-white, $border-color: currentcolor, $border-width: 1px ) {
+    text-decoration: none;
+    text-shadow: -1px -2px $shadow-color, -1px 1px $shadow-color, 1px -2px $shadow-color, -1px 0px $shadow-color, 1px 1px $shadow-color, 0.05em 0 $shadow-color;
+    background-size: 1px 1em;
+    box-shadow: inset 0 -0.13em $shadow-color, inset 0 -0.17em $border-color;
+    display: inline;
 }

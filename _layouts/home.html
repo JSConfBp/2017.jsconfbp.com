@@ -44,46 +44,86 @@
             <div class="teaser__background"><span class="teaser__background-check"></span></div>
         </div>
 
+        <div class="block block-first bg-grey-3">
+            <div class="content content-featured feature-speakers">
 
-    <div class="block">
-        <div class="content content-featured">
-            <div class="grid">
-                {% assign sortedUpdates = site.updates | sort: 'date' | reverse %}
-                {% assign firstUpdate = sortedUpdates.first %}
-                <div class="grid-item size-50">
-                    <h2 class="color-red">Latest Updates</h2>
+                <h2 class="color-blue text-center">Speakers</h2>
 
-                    <article class="update update--featured">
-                        <h3 class="update__title">
-                            <a href="{{ firstUpdate.url }}">{{ firstUpdate.title }}</a>
-                        </h3>
+                {% assign sortedSpeakers = site.speakers | sort: 'order' %}
+                {% for item in sortedSpeakers %}
+                {% capture modulo %}{{ forloop.index0 | mod: 3 }}{% endcapture %}
 
-                        <p class="update__lead">{{ firstUpdate.lead }}</p>
-                    </article>
+                {% if modulo == '0' or forloop.first %}
+                <div class="grid">
+                {% endif %}
 
+                    <div class="grid-item size-33">
+                        <div class="speaker">
+                            <a href="{{ item.url }}">
+
+                            {% include speaker-image.html image=item.image name=item.name decor=item.decor %}
+
+                            <h3>{{ item.title }}</h3>
+                            <h4 class="color-red">{{ item.name }}</h4>
+                            {% if item.twitter %}
+                            <p>
+                                <object type="twitter/link">
+                                    <a href="https://twitter.com/{{ item.twitter }}">@{{ item.twitter }}</a>
+                                </object>
+                            </p>
+                            {% endif %}
+                            </a>
+                        </div>
+
+                    </div>
+
+                {% if modulo == '2' or forloop.last %}
                 </div>
-                <ul class="grid-item size-50 update-list">
+                {% endif %}
+                {% endfor %}
 
-                    {% for item in sortedUpdates %}
-                    {% if forloop.index != 1 %}
-                    <li class="update">
-                        <h3 class="update__title">
-                            <a href="{{ item.url }}">{{ item.title }}</a>
-                        </h3>
-                        <!-- div class="update__date">
-                            <span class="update__date-month">{{ item.date | date: "%b" }}</span>
-                            <span class="update__date-day">{{ item.date | date: "%-d" }}</span>
-                        </div -->
-                    </li>
-                    {% endif %}
-                    {% endfor %}
-
-                </ul>
+                <div class="text-center">
+                    <p>More speakers coming soon...</p>
+                </div>
             </div>
         </div>
-    </div>
 
-        <div class="block bg-green-dark">
+
+        <div class="block">
+            <div class="content content-featured feature-updates">
+                <div class="grid">
+                    {% assign sortedUpdates = site.updates | sort: 'date' | reverse %}
+                    {% assign firstUpdate = sortedUpdates.first %}
+                    <div class="grid-item size-50">
+                        <h2 class="color-red">Latest Updates</h2>
+
+                        <article class="update update--featured">
+                            <h3 class="update__title">
+                                <a href="{{ firstUpdate.url }}">{{ firstUpdate.title }}</a>
+                            </h3>
+
+                            <p class="update__lead">{{ firstUpdate.lead }}</p>
+                        </article>
+
+                    </div>
+                    <ul class="grid-item size-50 update-list">
+
+                        {% for item in sortedUpdates %}
+                        {% if forloop.index != 1 %}
+                        <li class="update">
+                            <h3 class="update__title">
+                                <a href="{{ item.url }}">{{ item.title }}</a>
+                            </h3>
+                        </li>
+                        {% endif %}
+                        {% endfor %}
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="block block-last bg-green-dark">
             <div class="decoration-featured venue"></div>
             <div class="content content-featured">
                 <div class="grid">

@@ -1,4 +1,9 @@
 
+
+.feature-updates a:hover {
+    @include underline($color-white, $color-blue)
+}
+
 .update {
     border-bottom: 1px solid $color-grey-4;
     position: relative;

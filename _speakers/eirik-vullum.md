@@ -1,6 +1,6 @@
 ---
 layout: speaker
-order: 3
+order: 8
 title: JavaScript Metaprogramming - ES6 Proxy Use and Abuse
 image: /assets/speakers/eirik.jpg
 name: Eirik Vullum

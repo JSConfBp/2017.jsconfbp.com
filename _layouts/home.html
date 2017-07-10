@@ -65,11 +65,13 @@
 
                             <h3>{{ item.title }}</h3>
                             <h4 class="color-red">{{ item.name }}</h4>
+                            {% if item.twitter %}
                             <p>
                                 <object type="twitter/link">
                                     <a href="https://twitter.com/{{ item.twitter }}">@{{ item.twitter }}</a>
                                 </object>
                             </p>
+                            {% endif %}
                             </a>
                         </div>
 

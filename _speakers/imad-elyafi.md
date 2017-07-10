@@ -1,10 +1,10 @@
 ---
 layout: speaker
-order: 8
+order: 3
 title: Migrating Pinterest profiles to React
 image: /assets/speakers/imad.jpg
 name: Imad Elyafi
-twitter: bodil
+twitter:
 from: San Francisco, USA
 company: Pinterest
 decor: 3

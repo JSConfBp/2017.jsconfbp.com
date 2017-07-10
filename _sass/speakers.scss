@@ -19,6 +19,10 @@
 
         a {
             color: $color-blue;
+
+            &:hover {
+                @include underline_small($color-white, $color-blue)
+            }
         }
     }
 }
@@ -48,7 +52,7 @@
             text-decoration: none;
 
             h3 {
-                text-decoration: underline;
+                @include underline($color-grey-3, $color-blue)
             }
         }
     }
@@ -58,7 +62,13 @@
 
         a {
             color: $color-text-dark;
+
+            &:hover {
+                @include underline_small($color-grey-3, $color-text-dark)
+            }
         }
+
+
     }
 
 

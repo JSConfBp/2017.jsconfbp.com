@@ -21,8 +21,13 @@
                     {% include speaker-image.html image=page.image name=page.name decor=page.decor %}
 
                     <p class="speaker-meta">
+                        {% if page.twitter %}
                         <a href="https://twitter.com/{{ page.twitter }}">@{{ page.twitter }}</a><br />
-                        <a href="https://twitter.com/{{ page.twitter }}">GitHub</a><br />
+                        {% endif %}
+                        {% if page.github %}
+                        <a href="https://github.com/{{ page.github }}">GitHub</a><br />
+                        {% endif %}
+
                         {{ page.from }}<br />
                         {{ page.company }}<br />
                     </p>

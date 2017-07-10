@@ -1,6 +1,6 @@
 ---
 layout: speaker
-order: 13
+order: 2
 title: Goldilocks And The Three Code Reviews
 image: /assets/speakers/vaidehi.jpg
 name: Vaidehi Joshi

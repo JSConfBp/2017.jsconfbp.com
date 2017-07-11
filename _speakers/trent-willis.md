@@ -11,7 +11,7 @@ decor: 1
 
 social_card:
     twitter_card_type: summary_large_image
-    description: Caring For Your Fellow Developers
+    description: Session by Trent Willis
     image: /assets/social-cards/speaker-trent.jpg
 ---
 

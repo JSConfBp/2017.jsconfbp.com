@@ -41,7 +41,7 @@
 
                 {% assign sortedSpeakers = site.speakers | sort: 'order' %}
                 {% for item in sortedSpeakers %}
-                {% if forloop.index0 == 3 or forloop.first %}
+                {% if forloop.index0 == 3 or forloop.index0 == 6 or forloop.first %}
                 <div class="grid">
                 {% endif %}
 
@@ -65,7 +65,7 @@
 
                     </div>
 
-                {% if forloop.index0 == 2 or forloop.index0 == 5  or forloop.last %}
+                {% if forloop.index0 == 2 or forloop.index0 == 5 or forloop.index0 == 8  or forloop.last %}
                 </div>
                 {% endif %}
                 {% endfor %}

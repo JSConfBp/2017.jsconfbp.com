@@ -11,7 +11,7 @@ decor: 2
 
 social_card:
     twitter_card_type: summary_large_image
-    description: Building with empathy for the next billion internet users
+    description: Session by Peter Mbanugo
     image: /assets/social-cards/speaker-peter.jpg
 ---
 

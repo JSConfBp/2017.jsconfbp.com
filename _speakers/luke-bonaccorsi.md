@@ -11,7 +11,7 @@ decor: 1
 
 social_card:
     twitter_card_type: summary_large_image
-    description: How I ended up automating my curtains and shouting at my laptop
+    description: Session by Luke Bonaccorsi
     image: /assets/social-cards/speaker-luke.jpg
 ---
 

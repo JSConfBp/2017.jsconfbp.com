@@ -11,7 +11,7 @@ decor: 2
 
 social_card:
     twitter_card_type: summary_large_image
-    description: Impostor syndrome - am I suffering enough to talk about it?
+    description: Session by Madeleine Neumann
     image: /assets/social-cards/speaker-madeleine.jpg
 ---
 

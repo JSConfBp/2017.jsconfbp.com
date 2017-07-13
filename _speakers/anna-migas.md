@@ -11,7 +11,7 @@ decor: 4
 
 social_card:
     twitter_card_type: summary_large_image
-    description: Make your animations perform well
+    description: Session by Anna Migas
     image: /assets/social-cards/speaker-anna.jpg
 ---
 

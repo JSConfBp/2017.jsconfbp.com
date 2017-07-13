@@ -1,7 +1,7 @@
 ---
 layout: speaker
 order: 1
-title: Watch your back, Browser! You're being observer
+title: Watch your back, Browser! You're being observed
 image: /assets/speakers/stefan.jpg
 name: Stefan Judis
 twitter: stefanjudis
@@ -10,7 +10,7 @@ decor: 1
 
 social_card:
     twitter_card_type: summary_large_image
-    description: Watch your back, Browser! You're being observer
+    description: Session by Stefan Judis
     image: /assets/social-cards/speaker-stefan.jpg
 ---
 

@@ -11,7 +11,7 @@ decor: 4
 
 social_card:
     twitter_card_type: summary_large_image
-    description: Exploring the P2P world with WebRTC & JavaScript
+    description: Session by Nikita Baksalyar
     image: /assets/social-cards/speaker-nikita.jpg
 ---
 

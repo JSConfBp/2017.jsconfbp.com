@@ -11,7 +11,7 @@ decor: 2
 
 social_card:
     twitter_card_type: summary_large_image
-    description: JavaScript Metaprogramming - ES6 Proxy Use and Abuse
+    description: Session by Eirik Vullum
     image: /assets/social-cards/speaker-eirik.jpg
 ---
 

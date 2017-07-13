@@ -11,7 +11,7 @@ decor: 1
 
 social_card:
     twitter_card_type: summary_large_image
-    description: YES, your site can (and should) be accessible too. Lessons learned in building FT.com
+    description: Session by Laura Carvajal
     image: /assets/social-cards/speaker-laura.jpg
 ---
 

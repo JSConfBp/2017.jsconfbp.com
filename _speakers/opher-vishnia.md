@@ -11,7 +11,7 @@ decor: 3
 
 social_card:
     twitter_card_type: summary_large_image
-    description: "Web Animation: from Disney to SASS"
+    description: Session by Opher Vishnia
     image: /assets/social-cards/speaker-opher.jpg
 ---
 

@@ -12,7 +12,7 @@ decor: 1
 social_card:
     twitter_card_type: summary_large_image
     description: Session by Sandrina Pereira
-    image: /assets/social-cards/update-20170618.jpg
+    image: /assets/social-cards/speaker-sandrina.jpg
 ---
 
 Open a new window of possibilities to CSS: Faster compilation time, advanced logic, better styles scalability with Unit Testing and more.

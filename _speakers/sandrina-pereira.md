@@ -17,4 +17,4 @@ social_card:
 
 Open a new window of possibilities to CSS: Faster compilation time, advanced logic, better styles scalability with Unit Testing and more.
 
-How can we use Javascript in order expand the potential of CSS? Why not bring Unit Testing to the table? PostCSS exposes a new world of possibilities for CSS with Javascript. Let's have a faster compilation time, a prettier and more advanced logic than @if | @for, access to values outside of the CSS files, and much more! Let's put your CSS to the test!
+How can we use Javascript in order expand the potential of CSS? Why not bring Unit Testing to the table? PostCSS exposes a new world of possibilities for CSS with Javascript. Let's have a faster compilation time, a prettier and more advanced logic than `@if | @for`, access to values outside of the CSS files, and much more! Let's put your CSS to the test!

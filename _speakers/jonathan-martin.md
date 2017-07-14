@@ -5,13 +5,14 @@ title: Async patterns to scale your multicore JavaScript… elegantly.
 image: /assets/speakers/jonathan.jpg
 name: Jonathan Martin
 twitter: nybblr
+github: nybblr
 from: Mobile, USA
 company: Big Nerd Ranch
 decor: 1
 
 social_card:
     twitter_card_type: summary_large_image
-    description:
+    description: Session by Jonathan Martin
     image: /assets/social-cards/speaker-.jpg
 ---
 

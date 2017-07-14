@@ -5,6 +5,7 @@ title: Building with empathy for the next billion internet users
 image: /assets/speakers/peter.jpg
 name: Peter Mbanugo
 twitter: p_mbanugo
+github: pmbanugo
 from: Lagos, Nigeria
 company:
 decor: 2

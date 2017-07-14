@@ -1,6 +1,6 @@
 ---
 layout: speaker
-order: 13
+order: 17
 title: [TBD]
 image: /assets/speakers/bodil.jpg
 name: Bodil Stokke

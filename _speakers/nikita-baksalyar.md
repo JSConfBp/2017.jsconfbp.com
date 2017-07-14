@@ -5,6 +5,7 @@ title: Exploring the P2P world with WebRTC & JavaScript
 image: /assets/speakers/nikita.jpg
 name: Nikita Baksalyar
 twitter: nbaksalyar
+github: nbaksalyar
 from: Nizhny Novgorod, Russia
 company:
 decor: 4

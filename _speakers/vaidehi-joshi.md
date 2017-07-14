@@ -5,6 +5,7 @@ title: Goldilocks And The Three Code Reviews
 image: /assets/speakers/vaidehi.jpg
 name: Vaidehi Joshi
 twitter: vaidehijoshi
+github: vaidehijoshi
 from: Portland, USA
 company: Tilde, Inc.
 decor: 4

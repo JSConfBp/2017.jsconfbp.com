@@ -1,16 +1,17 @@
 ---
 layout: speaker
-order: 17
+order: 13
 title: How can Javascript improve your CSS mixins
 image: /assets/speakers/sandrina.jpg
 name: Sandrina Pereira
 twitter: a_sandrina_p
+github: sandrina-p
 from: Porto, Portugal
 decor: 1
 
 social_card:
     twitter_card_type: summary_large_image
-    description: Early Bird Sale starts on 19th June!
+    description: Session by Sandrina Pereira
     image: /assets/social-cards/update-20170618.jpg
 ---
 

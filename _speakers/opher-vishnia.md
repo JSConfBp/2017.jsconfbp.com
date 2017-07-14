@@ -5,6 +5,7 @@ title: "Web Animation: from Disney to SASS"
 image: /assets/speakers/opher.jpg
 name: Opher Vishnia
 twitter: opherv
+github: opherv
 from: Tel Aviv, Israel
 company: Eko
 decor: 3

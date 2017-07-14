@@ -243,6 +243,11 @@
 
         .speaker {
             padding-bottom: 0;
+            padding-top: 40px;
+
+            .speaker__image {
+                width: 70%;
+            }
         }
     }
 }

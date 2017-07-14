@@ -224,6 +224,32 @@
 
 }
 
+
+@media screen and (max-width: 768px) {
+    .speaker {
+        padding: 0 10px;
+        padding-bottom: 40px;
+
+        .speaker__image {
+            width: 80%;
+            margin-bottom: 30px;
+        }
+    }
+
+    .speaker-page {
+
+
+        .speaker {
+            padding-bottom: 0;
+            padding-top: 0px;
+
+            .speaker__image {
+                width: 70%;
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 480px) {
     .speaker {
         padding: 0 0px;

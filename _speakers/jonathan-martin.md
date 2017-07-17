@@ -8,7 +8,7 @@ twitter: nybblr
 github: nybblr
 from: Mobile, USA
 company: Big Nerd Ranch
-decor: 1
+decor: 3
 
 social_card:
     twitter_card_type: summary_large_image

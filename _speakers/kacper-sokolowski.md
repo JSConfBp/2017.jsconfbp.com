@@ -1,9 +1,9 @@
 ---
 layout: speaker
 order: 16
-title: You use Content Security Policy,  don't you?
+title: You use Content Security Policy, don't you?
 image: /assets/speakers/kacper.jpg
-name: Kacper Sokolowski
+name: Kacper Sokołowski
 twitter: kaapa_s
 from: Poland, Kraków
 company: Codewise

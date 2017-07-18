@@ -32,6 +32,9 @@
 
         a {
             color: $color-blue;
+            position: relative;
+            display: inline-block;
+            margin-left: 26px;
 
             &:hover {
                 @include underline_small($color-white, $color-blue)
@@ -39,8 +42,9 @@
 
             svg {
 
-                vertical-align: sub;
-                margin-right: 5px;
+                position: absolute;
+                left: -26px;
+                margin-top: 3px;
 
                 path { fill: $color-blue; }
             }

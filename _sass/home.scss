@@ -12,10 +12,15 @@ body.home .content {
 .teaser {
   height: 95vh;
   max-height: 700px;
+  min-height: 610px;
   position: relative;
   padding-top: 100px;
   box-sizing: border-box;
   overflow: hidden;
+
+  @media screen and (max-width: 680px) {
+    min-height: auto;
+  }
 
   &__content {
     text-align: center;
@@ -39,7 +44,7 @@ body.home .content {
       line-height: 50px;
     }
   }
- 
+
 
   @media screen and (max-width: 680px) {
     &__content {

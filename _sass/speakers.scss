@@ -36,6 +36,14 @@
             &:hover {
                 @include underline_small($color-white, $color-blue)
             }
+
+            svg {
+
+                vertical-align: sub;
+                margin-right: 5px;
+
+                path { fill: $color-blue; }
+            }
         }
     }
 }

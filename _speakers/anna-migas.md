@@ -5,6 +5,7 @@ title: Make your animations perform well
 image: /assets/speakers/anna.jpg
 name: Anna Migas
 twitter: szynszyliszys
+github: 
 from: Poland, Kraków
 company: Lunar Logic
 decor: 4

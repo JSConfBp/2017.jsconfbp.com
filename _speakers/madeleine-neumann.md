@@ -5,6 +5,7 @@ title: Impostor syndrome - am I suffering enough to talk about it?
 image: /assets/speakers/madeleine.jpg
 name: Madeleine Neumann
 twitter: maggysche
+github: madeleine-neumann
 from: Bochum, Germany
 company:
 decor: 2

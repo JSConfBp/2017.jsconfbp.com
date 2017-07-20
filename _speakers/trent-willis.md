@@ -5,6 +5,7 @@ title: Caring For Your Fellow Developers
 image: /assets/speakers/trent.jpg
 name: Trent Willis
 twitter: trentmwillis
+github: trentmwillis
 from: Sunnyvale, USA
 company: Netflix
 decor: 1

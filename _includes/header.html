@@ -8,6 +8,9 @@
         </a>
         <div class="title">
             <h1>
+                {% if (include.pretitle) %}
+                <small class="pre-title">{{ include.pretitle }}</small>
+                {% endif; %}
                 {{ include.title }}
                 <span class="line"></span>
             </h1>
@@ -16,8 +19,20 @@
                {{ include.subtitle }}
             </h2>
             {% endif; %}
+
+            {% if (include.show_tickets) %}
+            <div class="block tickets-button">
+                <a href="https://ti.to/jsconf-bp/jsconf-budapest-2017" class="button">
+                    <span class="inner">
+                        Buy Tickets
+                    </span>
+                </a>
+            </div>
+            {% endif; %}
         </div>
     {% endif; %}
+
+
     <div class="fright site-nav-container">
         <input type="checkbox" id="menu-icon" />
         <label for="menu-icon" class="site-nav-opener">

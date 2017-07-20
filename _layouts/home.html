@@ -7,6 +7,24 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="robots" content="index, follow">
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@jsconfbp">
+        <meta name="twitter:creator" content="@jsconfbp">
+        <meta name="twitter:title" content="{{ site.title }}">
+        <meta name="twitter:description" content="October 26-27, Budapest, Hungary">
+        <meta name="twitter:image" content="{{ site.url }}/assets/social-cards/homepage.jpg">
+        <meta name="twitter:url" content="{{ site.url }}">
+
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="{{ site.title }}" />
+        <meta property="og:description" content="October 26-27, Budapest, Hungary" />
+        <meta property="og:image" content="{{ site.url }}/assets/social-cards/homepage.jpg" />
+        <meta property="og:image:width" content="1280" />
+        <meta property="og:image:height" content="720" />
+        <meta property="og:site_name" content="{{ site.title }}" />
+        <meta property="og:url" content="{{ site.url }}" />
+
         <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="{{site.baseurl}}/css/styles.css">
     </head>
@@ -37,11 +55,11 @@
         <div class="block block-first bg-grey-3">
             <div class="content content-featured feature-speakers">
 
-                <h2 class="color-blue text-center">Speakers</h2>
+                <h2 class="color-blue text-center" id="speakers">Speakers</h2>
 
                 {% assign sortedSpeakers = site.speakers | sort: 'order' %}
                 {% for item in sortedSpeakers %}
-                {% if forloop.index0 == 3 or forloop.index0 == 6 or forloop.index0 == 9 or forloop.first %}
+                {% if forloop.index0 == 15 or forloop.index0 == 3 or forloop.index0 == 6 or forloop.index0 == 9 or forloop.index0 == 12 or forloop.first %}
                 <div class="grid">
                 {% endif %}
 
@@ -65,7 +83,7 @@
 
                     </div>
 
-                {% if forloop.index0 == 2 or forloop.index0 == 5 or forloop.index0 == 8 or forloop.index0 == 11 or forloop.last %}
+                {% if forloop.index0 == 17 or forloop.index0 == 2 or forloop.index0 == 5 or forloop.index0 == 8 or forloop.index0 == 11 or forloop.index0 == 14  or forloop.last %}
                 </div>
                 {% endif %}
                 {% endfor %}

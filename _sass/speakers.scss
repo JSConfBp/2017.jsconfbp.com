@@ -32,9 +32,21 @@
 
         a {
             color: $color-blue;
+            position: relative;
+            display: inline-block;
+            margin-left: 26px;
 
             &:hover {
                 @include underline_small($color-white, $color-blue)
+            }
+
+            svg {
+
+                position: absolute;
+                left: -26px;
+                margin-top: 3px;
+
+                path { fill: $color-blue; }
             }
         }
     }
@@ -224,6 +236,32 @@
 
 }
 
+
+@media screen and (max-width: 768px) {
+    .speaker {
+        padding: 0 10px;
+        padding-bottom: 40px;
+
+        .speaker__image {
+            width: 80%;
+            margin-bottom: 30px;
+        }
+    }
+
+    .speaker-page {
+
+
+        .speaker {
+            padding-bottom: 0;
+            padding-top: 0px;
+
+            .speaker__image {
+                width: 70%;
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 480px) {
     .speaker {
         padding: 0 0px;
@@ -243,6 +281,11 @@
 
         .speaker {
             padding-bottom: 0;
+            padding-top: 40px;
+
+            .speaker__image {
+                width: 70%;
+            }
         }
     }
 }

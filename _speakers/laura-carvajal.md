@@ -5,6 +5,7 @@ title: YES, your site can (and should) be accessible too. Lessons learned in bui
 image: /assets/speakers/laura.jpg
 name: Laura Carvajal
 twitter: lc512k
+github: lc512k
 from: London, UK
 company: The Financial Times
 decor: 1

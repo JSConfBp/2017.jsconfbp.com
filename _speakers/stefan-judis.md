@@ -5,6 +5,7 @@ title: Watch your back, Browser! You're being observed
 image: /assets/speakers/stefan.jpg
 name: Stefan Judis
 twitter: stefanjudis
+github: stefanjudis
 from: Berlin, Germany
 decor: 1
 

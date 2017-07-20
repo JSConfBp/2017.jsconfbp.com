@@ -5,6 +5,7 @@ title: How I ended up automating my curtains and shouting at my laptop
 image: /assets/speakers/luke.jpg
 name: Luke Bonaccorsi
 twitter: lukeb_uk
+github: lukeb-uk
 from: Leeds, UK
 company: Sky Betting & Gaming
 decor: 1

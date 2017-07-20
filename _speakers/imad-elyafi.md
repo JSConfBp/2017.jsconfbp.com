@@ -5,6 +5,7 @@ title: Migrating Pinterest profiles to React
 image: /assets/speakers/imad.jpg
 name: Imad Elyafi
 twitter: eelyafi
+github: eelyafi
 from: San Francisco, USA
 company: Pinterest
 decor: 3

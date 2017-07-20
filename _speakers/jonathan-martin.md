@@ -5,14 +5,15 @@ title: Async patterns to scale your multicore JavaScript… elegantly.
 image: /assets/speakers/jonathan.jpg
 name: Jonathan Martin
 twitter: nybblr
+github: nybblr
 from: Mobile, USA
 company: Big Nerd Ranch
-decor: 1
+decor: 3
 
 social_card:
     twitter_card_type: summary_large_image
-    description:
-    image: /assets/social-cards/speaker-.jpg
+    description: Session by Jonathan Martin
+    image: /assets/social-cards/speaker-jonathan.jpg
 ---
 
 “JavaScript is a toy language because it doesn’t support multithreading.” Heard that one before? Although the event loop means our program does one thing at a time, JavaScript is actually well-suited for a plethora of concurrency problems while avoiding typical multithreading woes. You might say JavaScript is single-threaded… just so it can be multithreaded!

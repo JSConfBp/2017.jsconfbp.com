@@ -5,13 +5,14 @@ title: MVC - What a web app and a Mozart Violin Concerto have in common
 image: /assets/speakers/don.jpg
 name: Don Burks
 twitter: don_burks
+github: donburks
 from: Vancouver, Canada
 company: Lighthouse Labs
 decor: 2
 
 social_card:
     twitter_card_type: summary_large_image
-    description: MVC - What a web app and a Mozart Violin Concerto have in common
+    description: Session by Don Burks
     image: /assets/social-cards/speaker-don.jpg
 ---
 

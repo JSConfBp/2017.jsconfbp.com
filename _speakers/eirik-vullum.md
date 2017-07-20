@@ -5,9 +5,10 @@ title: JavaScript Metaprogramming - ES6 Proxy Use and Abuse
 image: /assets/speakers/eirik.jpg
 name: Eirik Vullum
 twitter: eiriklv
+github: eiriklv
 from: Oslo, Norway
 company:
-decor: 2
+decor: 4
 
 social_card:
     twitter_card_type: summary_large_image

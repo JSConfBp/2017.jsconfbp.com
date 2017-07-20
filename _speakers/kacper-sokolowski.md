@@ -1,7 +1,7 @@
 ---
 layout: speaker
 order: 16
-title: You use Content Security Policy,  don't you?
+title: You use Content Security Policy, don't you?
 image: /assets/speakers/kacper.jpg
 name: Kacper Sokołowski
 twitter: kaapa_s
@@ -11,7 +11,7 @@ decor: 3
 
 social_card:
     twitter_card_type: summary_large_image
-    description: You use Content Security Policy,  don't you?
+    description: Session by Kacper Sokołowski
     image: /assets/social-cards/speaker-kacper.jpg
 ---
 

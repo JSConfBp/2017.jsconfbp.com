@@ -52,7 +52,7 @@
             <div class="teaser__background"><span class="teaser__background-check"></span></div>
         </div>
 
-        <div class="block block-first bg-grey-3">
+        <div class="block block-first">
             <div class="content content-featured feature-speakers">
 
                 <h2 class="color-blue text-center" id="speakers">Speakers</h2>
@@ -70,7 +70,7 @@
                             {% include speaker-image.html image=item.image name=item.name decor=item.decor %}
 
                             <h3>{{ item.title }}</h3>
-                            <h4 class="color-red">{{ item.name }}</h4>
+                            <h4>{{ item.name }}</h4>
                             {% if item.twitter %}
                             <p>
                                 <object type="twitter/link">

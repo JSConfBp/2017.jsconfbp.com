@@ -54,11 +54,15 @@ blockquote {
   @media screen and (max-width: 820px) {
     h2 {
       font-size: 30px;
-      line-height: 43px;
+      line-height: 38px;
     }
     h3 {
-      font-size: 26px;
-      line-height: 28px;
+      font-size: 20px;
+      line-height: 25px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 22px;
     }
   }
 }

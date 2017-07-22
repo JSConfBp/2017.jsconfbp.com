@@ -74,11 +74,29 @@
     }
   }
 
+  &.bg-green.block-decor {
+    &--right,
+    &--left {
+      &::before {
+        border-color: $color-green;
+      }
+    }
+  }
+
   &.bg-green-dark.block-decor {
     &--right,
     &--left {
       &::before {
         border-color: $color-green-dark;
+      }
+    }
+  }
+
+  &.bg-black.block-decor {
+    &--right,
+    &--left {
+      &::before {
+        border-color: $color-black;
       }
     }
   }

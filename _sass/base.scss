@@ -39,23 +39,27 @@
         content: '';
         display: block;
         position: absolute;
-        border-top: 45px solid transparent !important;
-        border-bottom: 45px solid;
+        border-width: 45px !important;
+        border-style: solid !important;
+        border-top-color: transparent !important;
         top: -90px;
+
+        @media screen and (max-width: 680px) {
+          border-width: 18px !important;
+          top: -36px;
+        }
       }
     }
 
     &--right {
       &::before {
-        border-right: 45px solid;
-        border-left: 45px solid transparent !important;
+        border-left-color: transparent !important;
         right: 0;
       }
     }
     &--left {
       &::before {
-        border-left: 45px solid;
-        border-right: 45px solid transparent !important;
+        border-right-color: transparent !important;
         left: 0;
       }
     }

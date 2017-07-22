@@ -52,10 +52,10 @@
             <div class="teaser__background"><span class="teaser__background-check"></span></div>
         </div>
 
-        <div class="block block-first">
+        <div class="block block-first block-decor--right bg-white">
             <div class="content content-featured feature-speakers">
 
-                <h2 class="color-blue text-center" id="speakers">Speakers</h2>
+                <h2 class="color-red text-center" id="speakers">Speakers</h2>
 
                 {% assign sortedSpeakers = site.speakers | sort: 'order' %}
                 {% for item in sortedSpeakers %}
@@ -89,19 +89,21 @@
                 {% endfor %}
 
                 <div class="text-center">
+                    <hr class="bg-red" />
+
                     <p>More speakers coming soon...</p>
                 </div>
             </div>
         </div>
 
 
-        <div class="block">
+        <div class="block bg-green-dark block-decor--left">
             <div class="content content-featured feature-updates">
                 <div class="grid">
                     {% assign sortedUpdates = site.updates | sort: 'date' | reverse %}
                     {% assign firstUpdate = sortedUpdates.first %}
                     <div class="grid-item size-50">
-                        <h2 class="color-red">Latest Updates</h2>
+                        <h2 class="color-white">Latest Updates</h2>
 
                         <article class="update update--featured">
                             <h3 class="update__title">
@@ -109,6 +111,12 @@
                             </h3>
 
                             <p class="update__lead">{{ firstUpdate.lead }}</p>
+
+                            <a href="{{ firstUpdate.url }}" class="button button-small">
+                                <span class="inner">
+                                    Read more
+                                </span>
+                            </a>
                         </article>
 
                     </div>
@@ -129,7 +137,7 @@
             </div>
         </div>
 
-        <div class="block block-last bg-green-dark">
+        <div class="block bg-green-dark">
             <div class="decoration-featured venue"></div>
             <div class="content content-featured">
                 <div class="grid">

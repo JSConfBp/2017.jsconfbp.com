@@ -5,7 +5,8 @@
         margin-bottom: 100px;
     }
 
-    padding-bottom: 100px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 
@@ -14,10 +15,11 @@
     .content-featured.feature-speakers {
 
         h2 {
-            margin-bottom: 60px;
+            margin-bottom: 40px;
         }
 
-        padding-bottom: 60px;
+        padding-bottom: 40px;
+        padding-top: 40px;
     }
 }
 
@@ -286,11 +288,20 @@
 @media screen and (max-width: 480px) {
     .speaker {
         padding: 0 0px;
-        padding-bottom: 40px;
+        padding-bottom: 30px;
+        padding-left: 160px;
+        padding-right: 20px;
+        text-align: left;
 
         .speaker__image {
-            width: 90%;
-            margin-bottom: 30px;
+            width: 120px;
+            position: absolute;
+            left: 20px;
+        }
+
+        h3 {
+            font-size: 20px;
+            line-height: 25px;
         }
     }
 
@@ -302,10 +313,16 @@
 
         .speaker {
             padding-bottom: 0;
-            padding-top: 40px;
+            padding-top: 10px;
+            padding-left: 140px;
+            padding-right: 0;
+            margin-bottom: 20px;
 
             .speaker__image {
-                width: 70%;
+                width: 120px;
+                position: absolute;
+                left: 0;
+                top: 0;
             }
         }
     }

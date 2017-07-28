@@ -25,7 +25,18 @@ Email: [aniko@bpweb.io](mailto:aniko@bpweb.io)
 Phone(hu): +36 70 426 2628  
 
 # The Quick Version
+
 JSConf Budapest is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks, workshops, parties, Twitter and other online media. Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organizers.
+
+# Reporting incidents
+
+If someone makes you or anyone else feel unsafe or unwelcome, please report it as soon as possible. If you see or hear someone do something, that might violate this Code of Conduct, please report it.
+
+You can make a personal report by:
+* Contacting a staff member, identified by our bright yellow tshirts with our logo on it
+* Twitter direct messages: our DMs on twitter are always open
+* Email - but it might take up a few hours or a day before we can respond on email during or after the event.
+
 
 # The Less Quick Version
 Harassment includes offensive verbal comments related to gender, sexual orientation, disability, physical appearance, body size, race, religion, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.

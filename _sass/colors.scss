@@ -3,6 +3,7 @@ $color-blue: #3580C2;
 $color-yellow: #f2de48;
 $color-green: #43a447;
 $color-white: #fff;
+$color-black: #000000;
 $color-green-dark: #409244;
 $color-twitter: #1DA1F2;
 $color-facebook: #3B579D;
@@ -11,6 +12,10 @@ $color-grey-1: #F5F7F9;
 $color-grey-2: #EBEFF3;
 $color-grey-3: #DAE1E6;
 $color-grey-4: #CBD4DC;
+
+$color-party1: #fc6f1d;
+$color-party2: #7c45ba;
+
 
 .color-white {
   color: $color-white;
@@ -32,7 +37,6 @@ $color-grey-4: #CBD4DC;
   color: $color-blue;
 }
 
-
 .color-yellow {
   color: $color-yellow;
 }
@@ -41,10 +45,19 @@ $color-grey-4: #CBD4DC;
   color: $color-green-dark;
 }
 
+.color-party {
+  color: $color-party2;
+
+
+}
+
 .bg-white {
   background: $color-white;
 }
 
+.bg-black {
+  background: $color-black;
+}
 
 .bg-green {
   background: $color-green;

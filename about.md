@@ -65,6 +65,26 @@ JSConf Budapest is brought to you by these people:
 
     <div class="speaker  grid-item size-50 clear-after">
         <div class="speaker-image">
+            <img src="https://pbs.twimg.com/profile_images/2424630966/d0uj43wd7o6z25w4ki62_400x400.jpeg" width="90" height="90">
+        </div>
+        <h3 class="speaker-details">
+            Levente Kiraly <br>
+            <a href="https://twitter.com/leventekk" class="twitter">@leventekk</a>
+        </h3>
+    </div>
+
+    <div class="speaker  grid-item size-50 clear-after">
+        <div class="speaker-image">
+            <img src="https://pbs.twimg.com/profile_images/775696303980474370/cncvvwch_400x400.jpg" width="90" height="90">
+        </div>
+        <h3 class="speaker-details">
+            Tamas Puski <br>
+            <a href="https://twitter.com/TPuski" class="twitter">@TPuski</a>
+        </h3>
+    </div>
+
+    <div class="speaker  grid-item size-50 clear-after">
+        <div class="speaker-image">
             <img src="https://pbs.twimg.com/profile_images/645878259767508992/lLgOJD_l_400x400.jpg" width="90" height="90">
         </div>
         <h3 class="speaker-details">

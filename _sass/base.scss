@@ -100,6 +100,15 @@
       }
     }
   }
+
+  &.bg-party.block-decor {
+    &--right,
+    &--left {
+      &::before {
+        border-color: $color-party-dark;
+      }
+    }
+  }
 }
 
 

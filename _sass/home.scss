@@ -128,9 +128,35 @@ body.home .content {
 }
 
 
+.bg-party {
+  background-image: url(/assets/party-bg.jpg);
+  background-size: 100% auto;
+  background-position: bottom center;
+}
+
+
+.bg-party a {
+  color: $color-party1;
+}
+
+.party-livejs-logo {
+  width: 400px;
+}
+.party-sponsor {
+  margin-top: 60px;
+}
+.party-sponsor-logo {
+  width: 300px;
+}
+
 @media screen and (max-width: 1020px) {
   .decoration-featured {
     height: 300px;
+  }
+
+  .party-sponsor-logo,
+  .party-livejs-logo {
+    width: 80%;
   }
 }
 
@@ -138,11 +164,33 @@ body.home .content {
   .venue-map.grid-item {
     padding: 40px 0 0;
   }
+
+  .bg-party {
+    background-size: auto 100%;
+    background-position: 72% bottom;
+  }
 }
 
 @media screen and (max-width: 612px) {
   .decoration-featured {
     background-size: auto 100%;
+  }
+
+  .party-sponsor-logo,
+  .party-livejs-logo {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .party-livejs-logo {
+    margin-bottom: 30px;
+  }
+
+  .party-sponsor {
+    text-align: center;
+    display: block;
   }
 }
 
@@ -150,5 +198,6 @@ body.home .content {
   .decoration-featured {
     height: 240px;
   }
+
 
 }

@@ -201,3 +201,19 @@ body.home .content {
 
 
 }
+
+
+
+.sponsor {
+  margin-top: 60px;
+
+  &-platinum { width: 600px; }
+  &-gold { width: 400px; }
+}
+
+@media screen and (max-width: 612px) {
+  .sponsor{
+    &-platinum { width: 90%; }
+    &-gold { width: 70%; }
+  }
+}

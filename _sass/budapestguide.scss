@@ -3,6 +3,7 @@
 }
 .trip-2.decoration-featured {
     background-image: url(/assets/budapest/budapest-night.jpg);
+    background-size: auto 100%;
 }
 .trip-3.decoration-featured {
     background-image: url(/assets/budapest/budapest-parlament.jpg);
@@ -16,4 +17,19 @@
 
 .trip-transportation.decoration-featured {
     background-image: url(/assets/budapest/budapest_traffic.jpg);
+}
+
+@media screen and (max-width: 480px) {
+    .trip-1.decoration-featured,
+    .trip-2.decoration-featured,
+    .trip-3.decoration-featured,
+    .trip-hills.decoration-featured,
+    .trip-airport.decoration-featured
+    {
+        height: 280px;
+    }
+
+    .trip-transportation.decoration-featured {
+        height: 300px;
+    }
 }

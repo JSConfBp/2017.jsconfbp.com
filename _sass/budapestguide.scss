@@ -19,6 +19,10 @@
     background-image: url(/assets/budapest/budapest_traffic.jpg);
 }
 
+.google-map {
+    height: 50vh;
+}
+
 @media screen and (max-width: 480px) {
     .trip-1.decoration-featured,
     .trip-2.decoration-featured,
@@ -32,4 +36,9 @@
     .trip-transportation.decoration-featured {
         height: 300px;
     }
+
+    .google-map {
+        height: 80vh;
+    }
+
 }

@@ -10,19 +10,12 @@ _tl;dr: Don’t be a Jerk. Be excellent._
 
 # Need Help?
 
-Contact Szabolcs
+Contact Dóri
 
-Szabolcs Szabolcsi-Tóth  
-Twitter: [@_Nec](https://twitter.com/_Nec)  
-Email: [nec@jsconfbp.com](mailto:nec@jsconfbp.com)  
-Phone(hu): +36 70 389 1288  
-
-or Aniko
-
-Anikó Fejes  
-Twitter: [@hubudibu](https://twitter.com/hubudibu)  
-Email: [aniko@bpweb.io](mailto:aniko@bpweb.io)  
-Phone(hu): +36 70 426 2628  
+Dóri Megyesi  
+Twitter: [@cssconfbudapest](https://twitter.com/cssconfbudapest)  
+Email: [dora.megyesi@gmail.com](mailto:dora.megyesi@gmail.com)  
+Phone (hu): +36 30 687 1080  
 
 # The Quick Version
 

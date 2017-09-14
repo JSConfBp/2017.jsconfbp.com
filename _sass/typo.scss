@@ -47,8 +47,14 @@ blockquote {
     margin-top: 0px;
   }
 
-  p {
+  p,
+  li {
     font-weight: 300;
+  }
+
+  a,
+  p a {
+      font-weight: 400;
   }
 
   @media screen and (max-width: 820px) {

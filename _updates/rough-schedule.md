@@ -60,6 +60,6 @@ Community talks by **[Mozilla](https://www.mozilla.org)**
 Closing JSconf Budapest 2017 & family photo
 
 **20:00**  
-After Party
+After Party & Games by **[EPAM](https://www.epam.com/)**
 
 The exact schedule will follow soon!

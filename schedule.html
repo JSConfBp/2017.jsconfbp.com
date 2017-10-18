@@ -1,0 +1,57 @@
+---
+layout: page
+title: Schedule-pre
+permalink: /schedule_pre
+---
+
+                <h2 class="color-red text-center" id="schedule">Schedule</h2>
+
+                <h3 class=" text-center">Day One - October 26th</h3>
+                <div class="schedule">
+                {% for item in site.schedule-day1 %}
+                    {% assign speaker = site.speakers[item.speaker] %}
+                    <div class="schedule__row schedule__row--{% if item.break %}break{% else %}session{% endif %}">
+                        <div class="schedule__time schedule__cell">{{ item.from }} - {{ item.to }}</div>
+                        <div class="schedule__item schedule__cell">
+                        {% if item.break %}
+                            {{ item.title }}
+                        {% else %}
+                            <a href="{{speaker.url}}">{{speaker.title}}</a>
+                        {% endif %}
+
+                            <div class="schedule__details">
+                                {% if item.break %}
+                                    {{ item.details }}
+                                {% else %}
+                                    by <span class="schedule__topic-by"></span>{{speaker.name}}</span>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+                </div>
+
+                <h3 class=" text-center">Day Two - October 27th</h3>
+                <div class="schedule">
+                {% for item in site.schedule-day2 %}
+                    {% assign speaker = site.speakers[item.speaker] %}
+                    <div class="schedule__row schedule__row--{% if item.break %}break{% else %}session{% endif %}">
+                        <div class="schedule__time schedule__cell">{{ item.from }} - {{ item.to }}</div>
+                        <div class="schedule__item schedule__cell">
+                        {% if item.break %}
+                            {{ item.title }}
+                        {% else %}
+                            <a href="{{speaker.url}}">{{speaker.title}}</a>
+                        {% endif %}
+
+                            <div class="schedule__details">
+                                {% if item.break %}
+                                    {{ item.details }}
+                                {% else %}
+                                    by <span class="schedule__topic-by"></span>{{speaker.name}}</span>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+                </div>

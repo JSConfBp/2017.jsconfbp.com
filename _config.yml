@@ -32,7 +32,10 @@ collections:
   speakers:
     output: true
     permalink: /:collection/:name/
-
+  schedule-day1:
+    output: false
+  schedule-day2:
+    output: false
 
 # Build settings
 markdown: kramdown

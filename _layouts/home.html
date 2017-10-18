@@ -55,6 +55,17 @@
         <div class="block block-first block-decor--right bg-white">
             <div class="content content-featured feature-speakers">
 
+
+<!--
+                {% for item in site.speakers %}
+                {{ forloop.index0 }}
+                {{ item.name }}
+                <br />
+                {% endfor %}
+
+                <br / -->
+
+
                 <h2 class="color-red text-center" id="speakers">Speakers</h2>
 
                 {% assign sortedSpeakers = site.speakers | sort: 'order' %}

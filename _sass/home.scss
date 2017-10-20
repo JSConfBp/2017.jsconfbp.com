@@ -139,6 +139,7 @@ body.home .content {
   color: $color-party1;
 }
 
+.party-epam-logo,
 .party-livejs-logo {
   width: 400px;
 }
@@ -147,6 +148,11 @@ body.home .content {
 }
 .party-sponsor-logo {
   width: 300px;
+}
+
+.epam-party p a {
+  color: #00b5d0;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 1020px) {

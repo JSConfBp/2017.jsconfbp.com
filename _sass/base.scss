@@ -109,6 +109,15 @@
       }
     }
   }
+
+  &.bg-epam-grey.block-decor {
+    &--right,
+    &--left {
+      &::before {
+        border-color: $color-epam-grey;
+      }
+    }
+  }
 }
 
 

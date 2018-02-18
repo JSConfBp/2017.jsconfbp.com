@@ -16,4 +16,9 @@ social_card:
     image: /assets/social-cards/speaker-madeleine.jpg
 ---
 
+
+<div class="speaker-youtube">
+    <iframe src="https://www.youtube.com/embed/-A9FsUOcDYw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
 Did you ever thought: “Am I doing this right? Is this the right way I am going? Do I deserve what I get at the moment? Should I ask for a raise?” Then this talk is especially for you. I will give a brief introduction to the imposter syndrome and some techniques to escape the impostor zone.

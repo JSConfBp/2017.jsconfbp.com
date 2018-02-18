@@ -16,6 +16,10 @@ social_card:
     image: /assets/social-cards/speaker-trent.jpg
 ---
 
+<div class="speaker-youtube">
+    <iframe src="https://www.youtube.com/embed/PLnwGHhpLfM?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
 “Move Fast & Break Things”, “Get Shit Done”, “Disrupt”.
 
 These are mantras of the tech and design industry. They praise speed and hard work but overlook a core element: people. Let's talk about how we can proactively care for our teammates with the same passion we use when caring for our code.

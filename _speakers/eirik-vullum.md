@@ -16,6 +16,11 @@ social_card:
     image: /assets/social-cards/speaker-eirik.jpg
 ---
 
+
+<div class="speaker-youtube">
+    <iframe src="https://www.youtube.com/embed/_5X2aB_mNp4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
 This non-polyfillable / non-transpilable feature now has first class support in all the latest browsers and node.js!
 
 But what is it even?

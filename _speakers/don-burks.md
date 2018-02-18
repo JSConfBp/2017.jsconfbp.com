@@ -16,4 +16,7 @@ social_card:
     image: /assets/social-cards/speaker-don.jpg
 ---
 
+<div class="speaker-youtube">
+    <iframe src="https://www.youtube.com/embed/wHu-_So_Pjc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
 If I told you that a Mozart Violin Concerto and an MVC web app shared architectural similarities, you would probably scoff. You'd start laughing if I said that Mozart and the developer who built the web app had nearly identical approaches. However, in this talk which compares actual code and musical examples, you'll see how music and coding share a number of characteristics beyond just obscure syntax and a learning curve. And hopefully, you'll find some interesting reasons to change your approach to architecting web applications.

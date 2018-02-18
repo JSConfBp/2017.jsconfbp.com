@@ -15,4 +15,9 @@ social_card:
     image: /assets/social-cards/speaker-stefan.jpg
 ---
 
+
+<div class="speaker-youtube">
+    <iframe src="https://www.youtube.com/embed/GP7U6LW2zDY?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
 Keeping track of Browser APIs is tough. Even experienced developers tend to solve the same problems with the same old solutions. What if I could tell you that common problems can be solved with new APIs? Let's have a look at the Observer/Observable APIs and see how these could make our life easier.

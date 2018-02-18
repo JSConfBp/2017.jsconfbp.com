@@ -16,4 +16,8 @@ social_card:
     image: /assets/social-cards/speaker-anna.jpg
 ---
 
+<div class="speaker-youtube">
+    <iframe src="https://www.youtube.com/embed/wQ-jn1KYUkQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
 Animations have been around the web for some time already; badly implemented can be deadly to the website’s performance and the user’s delight. Let’s learn together how the browser renders our page, to know where to look for optimisations and what are the best techniques to get our animations smooth and fast.
